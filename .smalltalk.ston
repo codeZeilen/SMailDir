@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'MailDir',
+      #directory : 'repository',
+      #platforms : [ #squeak ],
+      #load : [ 'tests' ],
+      #useLatestMetacello : true
+    }
+  ]
+}

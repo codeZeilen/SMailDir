@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMailDir",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMailDir",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
