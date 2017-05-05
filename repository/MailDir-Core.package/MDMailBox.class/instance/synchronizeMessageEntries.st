@@ -1,4 +1,4 @@
-as yet unclassified
+synchronization
 synchronizeMessageEntries
 
 	| currentFiles entriesToBeRemoved filesToBeAdded mailFiles |
@@ -13,7 +13,7 @@ synchronizeMessageEntries
 	self mails: (self mails reject: [:m | entriesToBeRemoved includes: m file]) asOrderedCollection.
 	
 	filesToBeAdded do: [:file | | entry |
-		entry := MDMessageEntry newAt: file in: self.
+		entry := MDMail newAt: file in: self.
 		(self mailArchive hasMessageEntryForId: entry messageId)
 			ifTrue: [entry := self mailArchive messageEntryForId: entry messageId ifAbsent: [].
 					entry moveTo: self.

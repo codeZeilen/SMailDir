@@ -1,4 +1,4 @@
-as yet unclassified
+files
 currentMessagesDirectory
 
 	^ self fileDirectory / 'cur'

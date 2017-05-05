@@ -1,4 +1,4 @@
-as yet unclassified
+mails
 allBoxes
 	
 	^ {self} , (self subBoxes gather: [:box | box allBoxes])

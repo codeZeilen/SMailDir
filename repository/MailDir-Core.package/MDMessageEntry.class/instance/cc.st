@@ -1,4 +1,0 @@
-accessing
-cc
-
-	^ cc

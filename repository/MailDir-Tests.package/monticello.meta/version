@@ -1,1 +1,1 @@
-(name 'MailDir-Tests-pre.1' message 'Restructuring the project' id '9df6ff49-ac5a-894a-be39-856d91c212b2' date '5 May 2017' time '11:45:30.221702 am' author 'pre' ancestors () stepChildren ())
+(name 'MailDir-Tests-pre.2' message 'refactoring' id '42267d13-2a6b-ed4c-b470-f403ebcfb7ce' date '5 May 2017' time '1:51:59.643702 pm' author 'pre' ancestors ((name 'MailDir-Tests-pre.1' message 'Restructuring the project' id '9df6ff49-ac5a-894a-be39-856d91c212b2' date '5 May 2017' time '11:45:30.221702 am' author 'pre' ancestors () stepChildren ())) stepChildren ())

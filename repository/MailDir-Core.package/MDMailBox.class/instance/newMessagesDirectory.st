@@ -1,4 +1,4 @@
-as yet unclassified
+files
 newMessagesDirectory
 
 	^ self fileDirectory / 'new'

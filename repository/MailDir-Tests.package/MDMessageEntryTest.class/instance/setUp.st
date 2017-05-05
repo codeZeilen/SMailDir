@@ -1,7 +1,7 @@
 accessing
 setUp
 
-	| archiveDirectory |
+	| archiveDirectory testDirectory |
 	testDirectoryName := 'mailDirTestDir8984'.
 	FileDirectory default createDirectory: testDirectoryName.
 	testDirectory := FileDirectory default / testDirectoryName.
@@ -22,5 +22,5 @@ setUp
 	
 	(boxDirectory / 'new') fileNamed: self newMailFileName. 
 	(boxDirectory / 'cur') fileNamed: self mailFileName. 
-	messageEntry := (MDMessageEntry newAt: (boxDirectory / 'cur') entries first in: box).
-	newMessageEntry := (MDMessageEntry newAt: (boxDirectory / 'new') entries first in: box)
+	messageEntry := (MDMail newAt: (boxDirectory / 'cur') entries first in: box).
+	newMessageEntry := (MDMail newAt: (boxDirectory / 'new') entries first in: box)

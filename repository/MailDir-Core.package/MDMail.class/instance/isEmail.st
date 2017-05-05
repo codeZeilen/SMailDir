@@ -1,4 +1,4 @@
 testing
-isMailBox
+isEmail
 
 	^ true

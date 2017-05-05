@@ -1,4 +1,0 @@
-reading
-hasBeenRead
-	
-	^ self hasBeenSeen

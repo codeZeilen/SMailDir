@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 flagSeparator
 
 	^ flagSeparator ifNil: [$:]

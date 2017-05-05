@@ -1,4 +1,4 @@
-as yet unclassified
+private
 readBoxNames
 
 	 ^ self fileDirectory directoryNames

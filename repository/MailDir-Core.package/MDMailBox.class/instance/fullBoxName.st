@@ -1,4 +1,4 @@
-as yet unclassified
+files
 fullBoxName
 
 	^ self fileDirectory localName

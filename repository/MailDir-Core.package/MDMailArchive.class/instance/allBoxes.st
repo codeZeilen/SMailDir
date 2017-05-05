@@ -1,4 +1,4 @@
-as yet unclassified
+boxes
 allBoxes
 
 	^ self boxes gather: [:box | box allBoxes]

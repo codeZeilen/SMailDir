@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeMessageEntries
 
-	self mails: (self allMessageFileEntries collect: [:file | MDMessageEntry newAt: file in: self ]).
+	self mails: (self allMessageFileEntries collect: [:file | MDMail newAt: file in: self ]).
