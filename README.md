@@ -1,4 +1,4 @@
-# MailDir for Smalltalk ![Travis Badge for SMAil](https://travis-ci.org/codeZeilen/SMailDir.svg?branch=master)
+# MailDir for Smalltalk [![Travis Badge for SMAil](https://travis-ci.org/codeZeilen/SMailDir.svg?branch=master)](https://travis-ci.org/codeZeilen/SMailDir)
 This provides an object-oriented interface to a maildir structure in your file system. The package provides the library as well as a basic UI for browsing emails.
 
 It is an evolved version of [CCMail](https://github.com/calmez/CCMail) originally created by Conrad Calmez.
