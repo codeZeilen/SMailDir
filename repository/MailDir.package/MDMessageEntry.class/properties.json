@@ -1,0 +1,22 @@
+{
+	"category" : "MailDir-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"file",
+		"box",
+		"header",
+		"subject",
+		"sender",
+		"recipients",
+		"date",
+		"messageId",
+		"cc" ],
+	"name" : "MDMessageEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

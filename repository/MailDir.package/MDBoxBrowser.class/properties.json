@@ -1,0 +1,15 @@
+{
+	"category" : "MailDir-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"boxes",
+		"selectedElement" ],
+	"name" : "MDBoxBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,5 @@
+mail list
+getSelectedEntry
+	
+	^ selectedElement
+	

@@ -1,0 +1,4 @@
+indexing
+mailIdIndex
+
+	^ mailIdIndex
