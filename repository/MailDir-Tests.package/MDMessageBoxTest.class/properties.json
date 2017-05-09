@@ -1,0 +1,14 @@
+{
+	"category" : "MailDir-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MDMessageBoxTest",
+	"pools" : [
+		 ],
+	"super" : "MDTestCase",
+	"type" : "normal" }

@@ -1,4 +1,6 @@
 mails
-removeMail:	anEntry
+removeMail: anEntry
 	
-	self mails remove: anEntry ifAbsent: []
+	self mails remove: anEntry ifAbsent: [].
+	
+	self changed.

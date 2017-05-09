@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"open" : "pre 5/8/2017 11:37",
+		"openWith:" : "pre 5/8/2017 11:37" },
+	"instance" : {
+		"buildWith:" : "pre 5/8/2017 12:11",
+		"checkBoxColor" : "pre 5/8/2017 11:42",
+		"defaultBackgroundColor" : "pre 5/8/2017 11:43",
+		"dialogTitle" : "pre 5/8/2017 11:37",
+		"email" : "pre 5/8/2017 11:37",
+		"email:" : "pre 5/8/2017 11:37",
+		"fieldLayoutSpec" : "pre 5/8/2017 11:46",
+		"getBody" : "pre 5/8/2017 11:37",
+		"getCC" : "pre 5/8/2017 11:37",
+		"getColor" : "pre 5/8/2017 11:37",
+		"getRecipients" : "pre 5/8/2017 11:37",
+		"getSender" : "pre 5/8/2017 11:37",
+		"getSubject" : "pre 5/8/2017 11:37",
+		"lineHeight" : "pre 5/8/2017 11:44",
+		"windowColorToUse" : "pre 5/8/2017 11:43" } }

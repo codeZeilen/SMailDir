@@ -14,7 +14,8 @@
 		"recipients",
 		"date",
 		"messageId",
-		"cc" ],
+		"cc",
+		"fileAccessMutex" ],
 	"name" : "MDMail",
 	"pools" : [
 		 ],

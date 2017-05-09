@@ -1,0 +1,14 @@
+{
+	"category" : "MailDir-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"email" ],
+	"name" : "MDEmailDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

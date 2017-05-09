@@ -1,0 +1,24 @@
+{
+	"category" : "MailDir-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messageEntry",
+		"boxDirectory",
+		"box",
+		"boxName",
+		"archiveName",
+		"archive",
+		"newMessageEntry",
+		"testDirectoryName",
+		"box2Name",
+		"box2Directory",
+		"box2" ],
+	"name" : "MDTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

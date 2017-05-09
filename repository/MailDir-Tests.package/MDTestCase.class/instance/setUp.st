@@ -2,25 +2,33 @@ accessing
 setUp
 
 	| archiveDirectory testDirectory |
-	testDirectoryName := 'mailDirTestDir8984'.
+	testDirectoryName := self directoryForTestName.
 	FileDirectory default createDirectory: testDirectoryName.
 	testDirectory := FileDirectory default / testDirectoryName.
 	
 	archiveName := DateAndTime milliSecondsSinceMidnight asString.
 	testDirectory createDirectory: archiveName.
 	archiveDirectory := testDirectory / archiveName.
-	archive := MDMailArchive archiveIn: archiveDirectory.
-	archive flagSeparator: $;.
 	
 	boxName := (DateAndTime milliSecondsSinceMidnight + 1) asString.
 	archiveDirectory createDirectory: boxName. 
 	boxDirectory := archiveDirectory / boxName.
-	
 	boxDirectory createDirectory: 'new'.
 	boxDirectory createDirectory: 'cur'.
-	box := MDMailBox newFor: boxDirectory in: archive.
 	
 	(boxDirectory / 'new') fileNamed: self newMailFileName. 
 	(boxDirectory / 'cur') fileNamed: self mailFileName. 
-	messageEntry := (MDMail newAt: (boxDirectory / 'cur') entries first in: box).
-	newMessageEntry := (MDMail newAt: (boxDirectory / 'new') entries first in: box)
+	
+	box2Name := (DateAndTime milliSecondsSinceMidnight + 2) asString.
+	archiveDirectory createDirectory: box2Name. 
+	box2Directory := archiveDirectory / box2Name.
+	box2Directory createDirectory: 'new'.
+	box2Directory createDirectory: 'cur'.
+	
+	archive := MDMailArchive archiveIn: archiveDirectory flagSeparator: $;.
+	box := archive boxes detect: [:b | b fileDirectory = boxDirectory].
+	box2 := archive boxes detect: [:b | b fileDirectory = box2Directory].
+	
+	messageEntry := box allMails detect: [:m | m file name = self mailFileName].
+	newMessageEntry := box allMails detect: [:m | m file name = self newMailFileName].
+	

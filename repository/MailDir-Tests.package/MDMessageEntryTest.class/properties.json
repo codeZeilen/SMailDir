@@ -6,16 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"messageEntry",
-		"boxDirectory",
-		"box",
-		"boxName",
-		"archiveName",
-		"archive",
-		"newMessageEntry",
-		"testDirectoryName" ],
+		 ],
 	"name" : "MDMessageEntryTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MDTestCase",
 	"type" : "normal" }

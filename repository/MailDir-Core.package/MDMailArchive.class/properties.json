@@ -9,7 +9,9 @@
 		"fileDirectory",
 		"boxes",
 		"mailIdIndex",
-		"flagSeparator" ],
+		"flagSeparator",
+		"archiveName",
+		"trashBoxName" ],
 	"name" : "MDMailArchive",
 	"pools" : [
 		 ],

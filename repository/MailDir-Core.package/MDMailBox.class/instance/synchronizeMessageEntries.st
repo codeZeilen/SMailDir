@@ -4,7 +4,7 @@ synchronizeMessageEntries
 	| currentFiles entriesToBeRemoved filesToBeAdded mailFiles |
 	
 	self subBoxes do: [:b | b synchronizeMessageEntries].
-	self haltOnce.
+	
 	currentFiles := self allMessageFileEntries asSet.
 	mailFiles := (self mails collect: [:m | m file]) asSet.
 	entriesToBeRemoved := mailFiles difference: currentFiles.
@@ -20,3 +20,5 @@ synchronizeMessageEntries
 					entry file: file.]
 			ifFalse: [self mails add: entry.
 					self mailArchive indexEntry: entry.]].
+			
+	self changed.

@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"boxes",
-		"selectedElement" ],
+		"selectedElement",
+		"hasSeenChange" ],
 	"name" : "MDBoxBrowser",
 	"pools" : [
 		 ],

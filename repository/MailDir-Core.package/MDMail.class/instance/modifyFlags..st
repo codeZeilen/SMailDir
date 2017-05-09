@@ -14,6 +14,4 @@ modifyFlags: aBlock
 		, flags sorted asByteArray asString. 
 	
 	fileName := (messageParts allButLast , flagsString) joinSeparatedBy: ''.
-	self file containingDirectory rename: self file name toBe: fileName.
-	self file: self file containingDirectory / fileName.
-	
+	self renameFileTo: (self file containingDirectory fullNameFor: fileName).
