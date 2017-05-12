@@ -1,4 +1,4 @@
 boxes
 trashBox
 
-	self boxNamed: self trashBoxName
+	^ self boxNamed: self trashBoxName

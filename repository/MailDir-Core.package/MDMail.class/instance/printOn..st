@@ -1,4 +1,6 @@
 printing
 printOn: aStream
-
-	aStream nextPutAll: (self hasBeenRead ifTrue: ['(read) '] ifFalse: ['(unread) ']) , self subject
+	
+	self printSenderOn: aStream.
+	aStream tab.
+	self printSubjectOn: aStream.

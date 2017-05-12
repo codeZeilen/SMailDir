@@ -16,8 +16,7 @@ synchronizeMessageEntries
 		entry := MDMail newAt: file in: self.
 		(self mailArchive hasMessageEntryForId: entry messageId)
 			ifTrue: [entry := self mailArchive messageEntryForId: entry messageId ifAbsent: [].
-					entry moveTo: self.
-					entry file: file.]
+					entry wasMovedTo: self as: file]
 			ifFalse: [self mails add: entry.
 					self mailArchive indexEntry: entry.]].
 			

@@ -15,3 +15,4 @@ modifyFlags: aBlock
 	
 	fileName := (messageParts allButLast , flagsString) joinSeparatedBy: ''.
 	self renameFileTo: (self file containingDirectory fullNameFor: fileName).
+	

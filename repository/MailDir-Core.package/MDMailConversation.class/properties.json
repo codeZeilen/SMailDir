@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"fileDirectory",
-		"boxes",
-		"mailIdIndex",
-		"conversationIndex",
-		"flagSeparator",
-		"archiveName",
-		"trashBoxName" ],
-	"name" : "MDMailArchive",
+		"startMail",
+		"mails",
+		"archive" ],
+	"name" : "MDMailConversation",
 	"pools" : [
 		 ],
 	"super" : "Object",
