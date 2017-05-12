@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: aBuilder
 
-	| windowSpec folderListSpec |
+	| windowSpec folderListSpec window |
 
 	windowSpec := aBuilder pluggableWindowSpec new
 		model: self;
@@ -22,7 +22,13 @@ buildWith: aBuilder
 		dropItem: #drop:ontoBox:shouldCopy:;
 		doubleClick: #doubleClickOn:;
 		autoDeselect: false;
+		menu: #generalMenu:;
+		icon: #iconFor:;
+		keyPress: #keyPressed:;
+		columns: #(300 nil);
 		frame: (0@0 corner: 1@1).
 	windowSpec children add: folderListSpec.
 	
-	^ aBuilder build: windowSpec
+	window := aBuilder build: windowSpec.
+	boxes size = 1 ifTrue: [self changed: #expandRootsRequested].
+	^ window

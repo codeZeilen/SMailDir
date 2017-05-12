@@ -1,4 +1,4 @@
 drag and drop
 wantsDroppedObject: anObject
 
-	^ anObject isEmail
+	^ anObject isEmail or: [anObject isMailConversation]

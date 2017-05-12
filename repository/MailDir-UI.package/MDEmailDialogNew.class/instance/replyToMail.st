@@ -1,4 +1,5 @@
 as yet unclassified
 replyToMail
 
-	self halt
+	MailSender sendMessage: (MailMessage replyFor: mailMessage)
+	
