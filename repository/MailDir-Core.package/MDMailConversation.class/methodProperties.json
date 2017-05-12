@@ -1,20 +1,15 @@
 {
 	"class" : {
-		"conversationsIn:" : "pre 5/12/2017 15:00",
-		"newAround:in:" : "pre 5/12/2017 14:16" },
+		"conversationsIn:" : "pre 5/12/2017 16:47" },
 	"instance" : {
 		"=" : "pre 5/12/2017 14:52",
 		"addMail:" : "pre 5/12/2017 15:00",
 		"archive" : "pre 5/12/2017 14:15",
 		"archive:" : "pre 5/12/2017 14:15",
 		"date" : "pre 5/12/2017 14:48",
-		"determineMails" : "pre 5/12/2017 14:23",
-		"determineStart" : "pre 5/12/2017 14:33",
-		"gatherPredecessorsOf:" : "pre 5/12/2017 14:24",
 		"hash" : "pre 5/12/2017 14:52",
 		"includes:" : "pre 5/12/2017 14:24",
 		"initialize" : "pre 5/12/2017 14:16",
-		"initializeMailsAndStart" : "pre 5/12/2017 14:18",
 		"isCollection" : "pre 5/12/2017 14:35",
 		"isMailConversation" : "pre 5/12/2017 13:53",
 		"isUnread" : "pre 5/12/2017 14:34",

@@ -1,15 +1,9 @@
 instance creation
 conversationsIn: aCollectionOfMails
 
-	| newConversations |
-	newConversations := OrderedCollection new.
+	| newConversations archive |
+	newConversations := Dictionary new.
 	
-	aCollectionOfMails do: [:m | | tempConversation |
-		tempConversation := self newAround: m in: m box mailArchive.
-		tempConversation := newConversations 
-			detect: [:c | c startMail = tempConversation startMail] 
-			ifNone: [newConversations add: tempConversation. tempConversation].
-		tempConversation addMail: m.].
-	self flag: #TODO. "The m box mailarchive is not good --pre."
+	archive := aCollectionOfMails first box mailArchive.
+	^ (aCollectionOfMails collect: [:m | archive conversationForId: m messageId ifAbsent: [self error: 'Mails are not indexed']]) asSet 
 	
-	^ newConversations 

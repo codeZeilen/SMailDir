@@ -1,5 +1,5 @@
 indexing
-determineConversationFor: anEntry
+determineStartMailIdFor: anEntry
 
 	| predecessorId |
 	predecessorId := (anEntry header fieldNamed: 'in-reply-to' 
@@ -7,4 +7,4 @@ determineConversationFor: anEntry
 		
 	predecessorId = anEntry messageId ifTrue: [^ predecessorId]. 
 		
-	^ self determineConversationFor: (self messageEntryForId: predecessorId ifAbsent: [^predecessorId])
+	^ self determineStartMailIdFor: (self messageEntryForId: predecessorId ifAbsent: [^ anEntry messageId])
