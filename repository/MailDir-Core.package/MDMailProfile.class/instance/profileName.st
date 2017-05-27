@@ -1,0 +1,4 @@
+accessing
+profileName
+
+	^ profileName ifNil: ['']

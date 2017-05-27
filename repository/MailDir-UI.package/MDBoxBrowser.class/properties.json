@@ -8,6 +8,8 @@
 	"instvars" : [
 		"boxes",
 		"selectedElement",
+		"selectedParent",
+		"selectedPath",
 		"hasSeenChange" ],
 	"name" : "MDBoxBrowser",
 	"pools" : [

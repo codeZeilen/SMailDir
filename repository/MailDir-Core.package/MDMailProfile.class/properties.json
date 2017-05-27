@@ -1,0 +1,20 @@
+{
+	"category" : "MailDir-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Profiles" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"smtpServer",
+		"smtpServerPort",
+		"smtpUsername",
+		"smtpPassword",
+		"userEmailAddress",
+		"archive",
+		"profileName" ],
+	"name" : "MDMailProfile",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

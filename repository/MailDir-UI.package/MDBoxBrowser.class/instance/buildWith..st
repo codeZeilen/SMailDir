@@ -25,6 +25,8 @@ buildWith: aBuilder
 		menu: #generalMenu:;
 		icon: #iconFor:;
 		keyPress: #keyPressed:;
+		setSelectedParent: #selectedParent:;
+		setSelectedPath: #setSelectedPath:;
 		columns: #(300 nil);
 		frame: (0@0 corner: 1@1).
 	windowSpec children add: folderListSpec.

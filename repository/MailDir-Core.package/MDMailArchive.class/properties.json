@@ -12,7 +12,10 @@
 		"conversationIndex",
 		"flagSeparator",
 		"archiveName",
-		"trashBoxName" ],
+		"trashBoxName",
+		"archiveBoxName",
+		"sentBoxName",
+		"draftsBoxName" ],
 	"name" : "MDMailArchive",
 	"pools" : [
 		 ],

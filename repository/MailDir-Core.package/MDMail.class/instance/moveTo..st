@@ -6,4 +6,5 @@ moveTo: aBox
 	fileAccessMutex critical: [
 		self moveFileTo: aBox.
 		self box removeMail: self.
-		aBox addMail: self]
+		aBox addMail: self.
+		self box: aBox]

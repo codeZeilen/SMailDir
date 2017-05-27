@@ -1,0 +1,4 @@
+accessing
+sentBoxName
+
+	^ sentBoxName

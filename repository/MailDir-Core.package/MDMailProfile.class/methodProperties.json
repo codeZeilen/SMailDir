@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"Profiles" : "pre 5/18/2017 11:47",
+		"create" : "pre 5/18/2017 11:32",
+		"forMessage:" : "pre 5/18/2017 14:23",
+		"new" : "pre 5/18/2017 11:31" },
+	"instance" : {
+		"archive" : "pre 5/18/2017 11:30",
+		"archive:" : "pre 5/18/2017 11:30",
+		"printOn:" : "pre 5/18/2017 14:18",
+		"profileName" : "pre 5/18/2017 14:19",
+		"profileName:" : "pre 5/18/2017 14:18",
+		"replyTo:" : "pre 5/18/2017 13:49",
+		"smtpPassword" : "pre 5/18/2017 11:30",
+		"smtpPassword:" : "pre 5/18/2017 11:30",
+		"smtpServer" : "pre 5/18/2017 11:30",
+		"smtpServer:" : "pre 5/18/2017 11:30",
+		"smtpServerPort" : "pre 5/18/2017 11:30",
+		"smtpServerPort:" : "pre 5/18/2017 11:30",
+		"smtpUsername" : "pre 5/18/2017 11:30",
+		"smtpUsername:" : "pre 5/18/2017 11:30",
+		"storeSentMessage:" : "pre 5/18/2017 15:42",
+		"userEmailAddress" : "pre 5/18/2017 14:22",
+		"userEmailAddress:" : "pre 5/18/2017 14:22" } }

@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"conversationsIn:" : "pre 5/12/2017 16:47" },
+		"conversationsIn:" : "pre 5/18/2017 16:07" },
 	"instance" : {
 		"=" : "pre 5/12/2017 14:52",
-		"addMail:" : "pre 5/12/2017 15:00",
+		"addMail:" : "pre 5/17/2017 17:30",
 		"archive" : "pre 5/12/2017 14:15",
 		"archive:" : "pre 5/12/2017 14:15",
+		"archiveConversation" : "pre 5/15/2017 22:05",
 		"date" : "pre 5/12/2017 14:48",
 		"hash" : "pre 5/12/2017 14:52",
 		"includes:" : "pre 5/12/2017 14:24",
@@ -14,13 +15,15 @@
 		"isMailConversation" : "pre 5/12/2017 13:53",
 		"isUnread" : "pre 5/12/2017 14:34",
 		"mailListIcon" : "pre 5/12/2017 14:33",
-		"mails" : "pre 5/12/2017 14:14",
+		"mails" : "pre 5/17/2017 17:08",
 		"mails:" : "pre 5/12/2017 14:14",
-		"moveTo:" : "pre 5/12/2017 14:43",
-		"newestDate" : "pre 5/12/2017 14:29",
+		"moveTo:" : "pre 5/18/2017 18:05",
+		"moveToTrash" : "pre 5/15/2017 22:00",
+		"newestDate" : "pre 5/18/2017 16:55",
 		"notEmpty" : "pre 5/12/2017 14:35",
 		"oldestDate" : "pre 5/12/2017 14:31",
 		"printOn:" : "pre 5/12/2017 14:39",
+		"setRead" : "pre 5/15/2017 22:05",
 		"size" : "pre 5/12/2017 14:48",
 		"startMail" : "pre 5/12/2017 13:54",
 		"startMail:" : "pre 5/12/2017 13:54" } }

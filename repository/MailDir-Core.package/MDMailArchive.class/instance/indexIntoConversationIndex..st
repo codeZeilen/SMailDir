@@ -4,10 +4,10 @@ indexIntoConversationIndex: anEntry
 	| conversation startMailId |
 	startMailId := self determineStartMailIdFor: anEntry.
 	conversation := (self conversationIndex includesKey: startMailId)
-		ifTrue: [self conversationIndex at: startMailId]
+		ifTrue: [	self conversationIndex at: startMailId]
 		ifFalse: [ | newConversation |
 				newConversation := MDMailConversation new
-					startMail: (self messageEntryForId: startMailId ifAbsent: [self error]);
+					startMail: anEntry;
 					archive: self;
 					yourself.
 				self conversationIndex at: startMailId put: newConversation.

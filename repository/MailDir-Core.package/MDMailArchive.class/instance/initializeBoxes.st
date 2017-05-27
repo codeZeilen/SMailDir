@@ -3,7 +3,7 @@ initializeBoxes
 
 	| boxNames rootBoxNames |
 	boxNames := self readBoxNames.
-	rootBoxNames := boxNames select: [:boxName | (boxName count: [:c | c = $.]) = 0].
+	rootBoxNames := (boxNames collect: [:boxName | (boxName findTokens: '.') first]) asSet.
 	
 	rootBoxNames do: [:rootBoxName | | rootBox |
 		rootBox := MDMailBox newFor: self fileDirectory / rootBoxName in: self.
