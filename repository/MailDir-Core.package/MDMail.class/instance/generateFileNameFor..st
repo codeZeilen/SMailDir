@@ -13,5 +13,5 @@ generateFileNameFor: aMessage
 		nextPutAll: NetNameResolver localHostName;
 		nextPutAll: ',U=123456'; "To signal the synchronization process that this is a new email --pre"
 		nextPutAll: ',FMD5=123456'; "Also to signal the synchronization process that this is a new email --pre"
-		nextPutAll: self box mailArchive flagSeparator asString , '2,';
+		nextPutAll: self mailArchive flagSeparator asString , '2,';
 		contents

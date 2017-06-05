@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "pre 5/27/2017 14:14",
 	"instvars" : [
-		"file",
 		"box",
 		"header",
 		"subject",
@@ -15,7 +14,8 @@
 		"date",
 		"messageId",
 		"cc",
-		"fileAccessMutex" ],
+		"fileAccessMutex",
+		"entries" ],
 	"name" : "MDMail",
 	"pools" : [
 		 ],

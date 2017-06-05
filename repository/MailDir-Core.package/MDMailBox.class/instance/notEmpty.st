@@ -1,4 +1,4 @@
 mails
 notEmpty
 
-	^ self mails notEmpty or: [self subBoxes notEmpty]
+	^ self isEmpty not

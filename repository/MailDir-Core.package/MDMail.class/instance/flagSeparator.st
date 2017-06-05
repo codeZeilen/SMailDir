@@ -1,4 +1,4 @@
 flags
 flagSeparator
 
-	^ self box mailArchive flagSeparator
+	^ self mailArchive flagSeparator

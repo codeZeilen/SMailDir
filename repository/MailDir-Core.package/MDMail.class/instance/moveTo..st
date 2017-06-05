@@ -1,10 +1,14 @@
 mails
 moveTo: aBox
-	
-	(self box = aBox and: [self box mails includes: self]) ifTrue: [^ self].
+	"Move moves the mail message completely to the new folder"
 
-	fileAccessMutex critical: [
-		self moveFileTo: aBox.
-		self box removeMail: self.
+	fileAccessMutex critical: [ | newFile |	
+		((self boxes includes: aBox) and: [aBox mails includes: self]) 
+			ifTrue: [newFile := self entries at: aBox]
+			ifFalse: [newFile := self copyFileTo: aBox].
+
+		self boxes do: [:b | b removeMail: self].
+		(self files copyWithout: newFile) do: [:f | f delete].
+		self entries removeAll.
 		aBox addMail: self.
-		self box: aBox]
+		self addBox: aBox with: newFile]

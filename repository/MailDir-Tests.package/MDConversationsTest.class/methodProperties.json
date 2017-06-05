@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "pre 6/5/2017 21:21",
+		"testArchiveConversations" : "pre 6/5/2017 21:12",
+		"testGetConversations" : "pre 6/5/2017 21:21",
+		"testTrashConversations" : "pre 6/5/2017 20:58" } }

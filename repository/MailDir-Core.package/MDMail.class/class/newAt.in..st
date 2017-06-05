@@ -2,7 +2,6 @@ as yet unclassified
 newAt: file in: aBox
 
 	^ self new
-		file: file;
-		box: aBox;
+		addBox: aBox with: file;
 		initializeHeaderInformation;
 		yourself

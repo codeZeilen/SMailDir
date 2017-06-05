@@ -1,8 +1,8 @@
 as yet unclassified
 newFor: aMailMessage in: aBox
-
+	
 	^ self new
-		box: aBox;
+		addBox: aBox with: nil;
 		initializeFileFor: aMailMessage;
 		initializeHeaderInformation;
 		yourself

@@ -1,10 +1,5 @@
 mails
 wasMovedTo: aBox as: aFile
 
-	self file = aFile ifTrue: [^ self].
-	"self assert: (self box ~= aBox and: [self file containingDirectory fileExists: self file name]) not."
-	
-	fileAccessMutex critical: [
-		self file: aFile.
-		self box removeMail: self.
-		aBox addMail: self]
+      (aBox boxName = 'INBOX' and: [aBox ~= self entries keys first] ) ifTrue: [self break].
+	fileAccessMutex critical: [self addBox: aBox with: aFile] 

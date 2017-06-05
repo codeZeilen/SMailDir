@@ -3,4 +3,4 @@ testRemoveMessage
 
 	box removeMail: messageEntry.
 	
-	self assert: box mails size equals: 1.
+	self assert: 2 equals: box mails size.

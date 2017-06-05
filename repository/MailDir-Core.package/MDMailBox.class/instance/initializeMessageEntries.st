@@ -1,4 +1,7 @@
 initialize-release
 initializeMessageEntries
 
-	self mails: (self allMessageFileEntries collect: [:file | MDMail newAt: file in: self ]) asOrderedCollection.
+	self 
+		mails: OrderedCollection new;
+		synchronizeOwnMessageEntries
+	

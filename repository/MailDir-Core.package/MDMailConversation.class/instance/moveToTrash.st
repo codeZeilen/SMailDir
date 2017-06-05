@@ -1,4 +1,4 @@
 mails
 moveToTrash
 
-	self mails do: [:m | m moveToTrash]
+	mails do: [:m | m moveToTrash]

@@ -1,5 +1,5 @@
-meta information
+updating
 changed
 
 	super changed.
-	^ self box changed
+	^ self boxes do: [:b | b changed]

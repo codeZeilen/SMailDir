@@ -1,4 +1,4 @@
 files
 file
 
-	^ file
+	^ self files first

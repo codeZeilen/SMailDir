@@ -3,9 +3,18 @@
 		 },
 	"instance" : {
 		"directoryForTestName" : "pre 5/9/2017 16:29",
-		"mailFileName" : "pre 5/9/2017 14:41",
+		"doubleMailFileContent" : "pre 6/5/2017 18:04",
+		"doubleMailFileName1" : "pre 6/5/2017 19:57",
+		"doubleMailFileName2" : "pre 6/5/2017 19:57",
+		"doubleMailMessageId" : "pre 6/5/2017 18:53",
+		"mailFileContent" : "pre 6/5/2017 17:58",
+		"mailFileName" : "pre 6/5/2017 18:56",
+		"mailMessageId" : "pre 6/5/2017 18:54",
 		"messageEntry" : "pre 5/9/2017 14:41",
 		"messageEntry:" : "pre 5/9/2017 14:41",
+		"newMailFileContent" : "pre 6/5/2017 20:43",
 		"newMailFileName" : "pre 5/9/2017 14:41",
-		"setUp" : "pre 5/9/2017 16:08",
-		"tearDown" : "pre 5/9/2017 16:08" } }
+		"newMailMessageId" : "pre 6/5/2017 18:53",
+		"setUp" : "pre 6/5/2017 21:13",
+		"tearDown" : "pre 5/9/2017 16:08",
+		"timeoutForSetUp" : "pre 6/5/2017 19:01" } }

@@ -3,7 +3,8 @@ initializeFileFor: aMessage
 
 	| fileName folder |
 	fileName := self generateFileNameFor: aMessage.
-	folder := self box currentMessagesDirectory.
+	self assert: self boxes size = 1.
+	folder := self boxes first currentMessagesDirectory.
 	folder fileNamed: fileName do: [:writeStream |
 		writeStream nextPutAll: aMessage asSendableText].
-	self file: (folder entryAt: fileName)
+	self addBox: self boxes first with: (folder entryAt: fileName)
