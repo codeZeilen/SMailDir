@@ -1,9 +1,6 @@
 as yet unclassified
 testGetConversations
 	| conversations |
-	self fail.
-
-	"Major bug: We have to index all entries before indexing the conversations as otherwise we create empty conversations! --pre"
 
 	conversations := MDMailConversation conversationsIn: box mails.
 	

@@ -5,4 +5,5 @@ archiveIn: aFileDirectory flagSeparator: aString
 		flagSeparator: aString;
 		fileDirectory: aFileDirectory;
 		initializeBoxes;
+		indexConversations;
 		yourself
