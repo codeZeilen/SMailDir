@@ -7,5 +7,11 @@ SmalltalkCISpec {
       #load : [ 'tests' ],
       #useLatestMetacello : true
     }
-  ]
+  ],
+  #testing : {
+    #categories : [ 'MailDir-*' ],
+    #coverage : {
+      #categories : [ 'MailDir-Core' ]
+    }
+  }
 }
