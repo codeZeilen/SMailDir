@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"archiveIn:flagSeparator:" : "pre 6/8/2017 17:09",
-		"startSynchronizationProcess" : "pre 5/10/2017 09:36",
+		"startSynchronizationProcess" : "pre 6/8/2017 17:45",
 		"synchronizeAllArchives" : "pre 5/8/2017 17:03" },
 	"instance" : {
 		"addBox:named:" : "pre 4/27/2017 17:17",
@@ -42,7 +42,8 @@
 		"sentBoxName" : "pre 5/18/2017 09:42",
 		"sentBoxName:" : "pre 5/18/2017 09:42",
 		"storeSentMail:" : "pre 5/18/2017 17:19",
-		"synchronizeMessageEntries" : "pre 5/8/2017 17:01",
+		"synchronizeMessageEntries" : "pre 6/8/2017 18:24",
 		"trashBox" : "pre 5/9/2017 17:16",
 		"trashBoxName" : "pre 5/9/2017 17:05",
-		"trashBoxName:" : "pre 5/9/2017 17:05" } }
+		"trashBoxName:" : "pre 5/9/2017 17:05",
+		"updateIndex" : "pre 6/8/2017 18:39" } }

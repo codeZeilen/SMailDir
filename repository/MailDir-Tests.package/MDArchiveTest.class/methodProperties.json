@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAllBoxes" : "pre 6/5/2017 21:14" } }
+		"sentMailMessage" : "pre 6/9/2017 17:02",
+		"testAllBoxes" : "pre 6/9/2017 17:01",
+		"testStoreSentMail" : "pre 6/9/2017 17:03" } }

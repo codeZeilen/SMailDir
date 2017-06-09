@@ -7,8 +7,6 @@
 		"=" : "pre 5/17/2017 17:03",
 		"addBox:with:" : "pre 5/27/2017 14:33",
 		"addOrdinaryFlag:" : "pre 5/4/2017 14:43",
-		"box" : "pre 4/27/2017 17:39",
-		"box:" : "pre 4/27/2017 17:39",
 		"boxes" : "pre 5/27/2017 14:17",
 		"cc" : "pre 4/28/2017 21:29",
 		"changed" : "pre 5/27/2017 14:19",
@@ -31,6 +29,7 @@
 		"initializeHeaderInformation" : "pre 5/5/2017 13:41",
 		"isEmail" : "pre 4/29/2017 00:41",
 		"isImportant" : "pre 5/4/2017 14:01",
+		"isStoredInAnyBox" : "pre 6/8/2017 18:22",
 		"isUnread" : "pre 5/3/2017 17:59",
 		"mailArchive" : "pre 5/27/2017 14:18",
 		"mailListIcon" : "pre 5/10/2017 09:51",
@@ -40,7 +39,7 @@
 		"moveFile:within:" : "pre 5/27/2017 14:43",
 		"moveTo:" : "pre 5/28/2017 22:16",
 		"moveToArchive" : "pre 6/5/2017 21:11",
-		"moveToTrash" : "pre 5/27/2017 14:23",
+		"moveToTrash" : "pre 6/8/2017 17:29",
 		"printOn:" : "pre 5/10/2017 10:27",
 		"printSenderOn:" : "pre 5/10/2017 11:31",
 		"printSubjectOn:" : "pre 5/10/2017 10:30",
@@ -54,4 +53,4 @@
 		"setUnread" : "pre 5/27/2017 15:36",
 		"subject" : "pre 4/28/2017 21:26",
 		"wasMovedTo:as:" : "pre 5/28/2017 22:04",
-		"wasRemovedFrom:" : "pre 5/27/2017 14:59" } }
+		"wasRemovedFrom:" : "pre 6/8/2017 18:21" } }

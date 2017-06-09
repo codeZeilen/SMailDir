@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIsEmpty
 	
 	self assert: box notEmpty.

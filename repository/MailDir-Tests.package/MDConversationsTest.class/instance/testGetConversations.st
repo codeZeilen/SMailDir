@@ -4,7 +4,8 @@ testGetConversations
 
 	conversations := MDMailConversation conversationsIn: box mails.
 	
-	[self assert: 2 equals: conversations size] on: AssertionFailure do: [self halt].
+	self assert: conversations anyOne notEmpty.
+	self assert: 2 equals: conversations size.
 	conversations do: [:c |
 		{messageEntry . doubleMessageEntry} includes: c startMail]
 	

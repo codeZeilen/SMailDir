@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAllBoxes
 
-	self assert: {box . box2 . trashBox . archiveBox} asSet equals: archive allBoxes asSet
+	self assert: {box . box2 . trashBox . archiveBox . sentBox} asSet equals: archive allBoxes asSet

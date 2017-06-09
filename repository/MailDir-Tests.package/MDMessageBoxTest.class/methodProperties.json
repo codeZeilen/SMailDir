@@ -2,7 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addNewMail" : "pre 6/8/2017 18:08",
+		"addedMailFileContent" : "pre 6/8/2017 18:08",
+		"addedMailFileName" : "pre 6/8/2017 17:58",
+		"addedMailMessageId" : "pre 6/8/2017 18:01",
 		"testAddAnExistingMessage" : "pre 6/5/2017 19:54",
 		"testIsEmpty" : "pre 6/5/2017 20:40",
 		"testRemoveMessage" : "pre 6/5/2017 19:54",
-		"testSetAllMailsRead" : "pre 6/5/2017 20:39" } }
+		"testSetAllMailsRead" : "pre 6/5/2017 20:39",
+		"testSynchronizationAddsNewMails" : "pre 6/8/2017 18:09",
+		"testSynchronizationMovesMovedFiles" : "pre 6/8/2017 18:14",
+		"testSynchronizationRemovesDeletedFiles" : "pre 6/8/2017 17:56",
+		"testSynchronizationRemovesEntryFromConversations" : "pre 6/8/2017 18:20",
+		"testSynchronizationUpdatesConversations" : "pre 6/9/2017 16:46",
+		"testSynchronizationUpdatesIfThereAreMultipleFilesForAMail" : "pre 6/8/2017 18:17" } }

@@ -23,7 +23,10 @@
 		"doubleMessageEntry",
 		"archiveBoxName",
 		"archiveBoxDirectory",
-		"archiveBox" ],
+		"archiveBox",
+		"sentBoxName",
+		"sentBoxDirectory",
+		"sentBox" ],
 	"name" : "MDTestCase",
 	"pools" : [
 		 ],

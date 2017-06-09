@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"testArchiveConversations" : "pre 6/5/2017 21:12",
-		"testGetConversations" : "pre 6/8/2017 17:10",
+		"testGetConversations" : "pre 6/9/2017 17:01",
+		"testMoveConversations" : "pre 6/9/2017 17:05",
 		"testTrashConversations" : "pre 6/5/2017 20:58" } }

@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "pre 5/27/2017 14:14",
 	"instvars" : [
-		"box",
 		"header",
 		"subject",
 		"sender",

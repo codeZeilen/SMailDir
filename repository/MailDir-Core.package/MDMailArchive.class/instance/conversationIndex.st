@@ -1,4 +1,4 @@
-accessing
+indexing
 conversationIndex
 
 	^ conversationIndex
