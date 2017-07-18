@@ -1,19 +1,17 @@
 as yet unclassified
 createFieldInputNamed: fieldLabelGetter getter: fieldGetter setter: fieldSetter with: aBuilder
 
-	| fieldPanel |
-	fieldPanel := super 
+	| field |
+	field := super 
 		createFieldInputNamed: fieldLabelGetter 
 		getter: fieldGetter 
 		setter: fieldSetter 
 		with: aBuilder.
 	
-	fieldPanel children do: [:c |
-		c 
+	field 
 			borderWidth: 0; 
 			readOnly: true; 
 			color: #windowColorToUse; 
-			indicateUnacceptedChanges: false].
+			indicateUnacceptedChanges: false.
 	
-	^ fieldPanel
-	
+	^ field	

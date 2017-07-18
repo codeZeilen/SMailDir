@@ -2,11 +2,12 @@ mail list
 elementsOfBox: aBoxOrConversation
 
 	aBoxOrConversation isMailBox
-		ifTrue: [| conversations conversationsOrMails |
-				aBoxOrConversation subBoxes
-					ifNotEmpty: [^ aBoxOrConversation subBoxes , {self createFakeBoxFor: aBoxOrConversation}]
+		ifTrue: [| conversations conversationsOrMails aBox |
+				aBox := aBoxOrConversation.
+				aBox subBoxes
+					ifNotEmpty: [^ aBox subBoxes , {self createFakeBoxFor: aBox}]
 					ifEmpty: [
-						conversations := MDMailConversation conversationsIn: aBoxOrConversation mails.
+						conversations := MDMailConversation conversationsIn: aBox mails.
 						conversationsOrMails := conversations collect: [:c | c size = 1 ifTrue: [c mails first] ifFalse: [c]].
 						conversationsOrMails := conversationsOrMails sorted: [:a :b | a date > b date ].
 						^ conversationsOrMails]].
@@ -15,5 +16,3 @@ elementsOfBox: aBoxOrConversation
 		ifTrue: [^ aBoxOrConversation mails sorted: [:a :b | a date > b date]].	
 		
 	^ #()
-	
-	

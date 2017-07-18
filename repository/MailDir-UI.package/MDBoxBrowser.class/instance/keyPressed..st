@@ -1,13 +1,13 @@
 keyboard handling
 keyPressed: character
 
-	character = Character delete ifTrue: [self selectNextElementAfter: [self selectedElement moveToTrash]].
+	character = Character delete ifTrue: [^ self selectNextElementAfter: [self selectedElement moveToTrash]].
 	
 	character = Character space ifTrue: [
-		self selectedElement isEmail ifTrue: [self selectedElement openRackStandardMorph]].
+		self selectedElement isEmail ifTrue: [^ self selectedElement openRackStandardMorph]].
 	
 	character = $a ifTrue: [
 		self selectedElement isEmail 
-			ifTrue: [self selectNextElementAfter: [self selectedElement archiveMessage]].
+			ifTrue: [^ self selectNextElementAfter: [self selectedElement moveToArchive]].
 		self selectedElement isMailConversation 
-			ifTrue: [self selectedElement archiveConversation]].
+			ifTrue: [^ self selectNextElementAfter: [self selectedElement moveToArchive]]].
