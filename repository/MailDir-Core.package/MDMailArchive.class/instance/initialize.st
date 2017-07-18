@@ -3,5 +3,5 @@ initialize
 
 	self 
 		boxes: Dictionary new;
-		mailIdIndex: Dictionary new;
-	 	conversationIndex: Dictionary new.
+		mailIdIndex: WeakValueDictionary new;
+	 	conversationIndex: WeakKeyDictionary new.

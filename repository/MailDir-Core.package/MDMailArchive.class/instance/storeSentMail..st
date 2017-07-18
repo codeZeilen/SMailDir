@@ -4,6 +4,6 @@ storeSentMail: aMailMessage
 	| newMail |
 	newMail := MDMail newFor: aMailMessage in: self sentBox.
 	newMail setRead.
-	self sentBox addMail: newMail.
+	newMail moveTo: self sentBox.
 	self indexEntry: newMail.
 	^ newMail

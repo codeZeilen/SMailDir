@@ -4,6 +4,6 @@ newFor: aFileDirectory in: aMailArchive
 	^ self new
 		fileDirectory: aFileDirectory;
 		mailArchive: aMailArchive;
-		initializeSubBoxes;
+		synchronizeSubBoxes;
 		initializeMessageEntries;
 		yourself		

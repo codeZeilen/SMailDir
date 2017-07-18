@@ -16,8 +16,8 @@ synchronizeOwnMessageEntries
 		(self mailArchive hasMessageEntryForId: entry messageId)
 			ifTrue: [entry := self mailArchive messageEntryForId: entry messageId ifAbsent: [].
 					entry wasMovedTo: self as: file.
-					self mails add: entry]
-			ifFalse: [self mails add: entry.
+					self addMail: entry]
+			ifFalse: [self addMail: entry.
 					self mailArchive indexEntry: entry.]].
 			
 	self changed.

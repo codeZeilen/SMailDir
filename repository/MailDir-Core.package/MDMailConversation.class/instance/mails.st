@@ -1,4 +1,4 @@
 accessing
 mails
 
-	^ mails select: [:m | (m boxes includes: self archive trashBox) not]
+	^ mails select: [:m | (m boxes = {self archive trashBox}) not]

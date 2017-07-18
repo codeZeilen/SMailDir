@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"newFor:in:" : "pre 4/28/2017 21:25" },
+		"newFor:in:" : "pre 7/6/2017 14:40" },
 	"instance" : {
-		"addMail:" : "pre 5/18/2017 09:58",
+		"addMail:" : "pre 7/13/2017 17:01",
 		"allBoxes" : "pre 4/27/2017 17:45",
 		"allMails" : "pre 5/3/2017 09:16",
 		"allMessageFileEntries" : "pre 5/4/2017 17:22",
@@ -12,8 +12,8 @@
 		"fileDirectory" : "pre 4/27/2017 17:08",
 		"fileDirectory:" : "pre 4/27/2017 17:08",
 		"fullBoxName" : "pre 4/27/2017 17:23",
+		"initialize" : "pre 7/6/2017 14:40",
 		"initializeMessageEntries" : "pre 5/28/2017 21:45",
-		"initializeSubBoxes" : "pre 4/27/2017 17:26",
 		"isCollection" : "pre 4/29/2017 00:48",
 		"isEmail" : "pre 5/2/2017 17:34",
 		"isEmpty" : "pre 6/5/2017 20:41",
@@ -31,4 +31,5 @@
 		"subBoxes" : "pre 4/27/2017 17:01",
 		"subBoxes:" : "pre 4/27/2017 17:01",
 		"synchronizeMessageEntries" : "pre 5/28/2017 21:44",
-		"synchronizeOwnMessageEntries" : "pre 6/5/2017 19:52" } }
+		"synchronizeOwnMessageEntries" : "pre 7/13/2017 16:56",
+		"synchronizeSubBoxes" : "pre 7/6/2017 14:43" } }
