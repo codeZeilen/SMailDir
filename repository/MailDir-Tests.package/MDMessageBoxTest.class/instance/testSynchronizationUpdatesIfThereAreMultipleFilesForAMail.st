@@ -10,4 +10,4 @@ testSynchronizationUpdatesIfThereAreMultipleFilesForAMail
 	self assert: 2 equals: box2 mails size.
 	self assert: (box2 mails includes: messageEntry).
 	self assert: (box mails includes: messageEntry).
-	self assert: {box . box2} equals: messageEntry boxes.
+	self assert: {box . box2} asSet equals: messageEntry boxes asSet.

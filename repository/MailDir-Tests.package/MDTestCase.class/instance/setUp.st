@@ -1,7 +1,7 @@
 accessing
 setUp
 
-	| archiveDirectory testDirectory tmpFile |
+	| testDirectory tmpFile |
 	testDirectoryName := self directoryForTestName.
 	FileDirectory default createDirectory: testDirectoryName.
 	testDirectory := FileDirectory default / testDirectoryName.

@@ -24,6 +24,7 @@
 		"archiveBoxName",
 		"archiveBoxDirectory",
 		"archiveBox",
+		"archiveDirectory",
 		"sentBoxName",
 		"sentBoxDirectory",
 		"sentBox" ],
