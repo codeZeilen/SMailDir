@@ -3,8 +3,10 @@ synchronizeSubBoxes
 
 	| allSubBoxNames namesOfDirectSubBoxes existingBoxes addedBoxNames removedBoxNames |
 	
-	allSubBoxNames := self mailArchive readBoxNames select: [:boxName | (boxName splitBy: '.') beginsWith: (self fullBoxName splitBy: '.')].
-	namesOfDirectSubBoxes := allSubBoxNames select: [:boxName | ((self fullBoxName splitBy: '.') size + 1) = (boxName splitBy: '.') size].
+	allSubBoxNames := self mailArchive readBoxNames select: [:boxName | 
+		(boxName splitBy: '.') beginsWith: (self fullBoxName splitBy: '.')].
+	namesOfDirectSubBoxes := allSubBoxNames select: [:boxName | 
+		((self fullBoxName splitBy: '.') size + 1) = (boxName splitBy: '.') size].
 	namesOfDirectSubBoxes := namesOfDirectSubBoxes asSet.
 	existingBoxes := (self subBoxes collect: [:box | box fullBoxName]) asSet.
 	
