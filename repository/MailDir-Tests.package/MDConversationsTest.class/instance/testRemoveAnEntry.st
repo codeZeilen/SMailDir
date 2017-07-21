@@ -4,7 +4,7 @@ testRemoveAnEntry
 	| conversation |
 	conversation := (MDMailConversation conversationsIn: {newMessageEntry}) anyOne. 
 	
-	conversation removeEntry: newMessageEntry.
+	conversation removeMail: newMessageEntry.
 	
 	self shouldnt: (conversation includes: newMessageEntry).
 	

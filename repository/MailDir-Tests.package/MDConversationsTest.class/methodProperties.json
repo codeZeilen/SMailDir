@@ -5,6 +5,6 @@
 		"testArchiveConversations" : "pre 6/5/2017 21:12",
 		"testGetConversations" : "pre 6/9/2017 17:01",
 		"testMoveConversations" : "pre 6/9/2017 17:05",
-		"testRemoveAnEntry" : "pre 7/21/2017 10:12",
-		"testRemoveStartMailOfFilledConversation" : "pre 7/21/2017 10:17",
+		"testRemoveAnEntry" : "pre 7/21/2017 10:39",
+		"testRemoveStartMailOfFilledConversation" : "pre 7/21/2017 10:39",
 		"testTrashConversations" : "pre 6/5/2017 20:58" } }
