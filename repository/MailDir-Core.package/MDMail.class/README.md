@@ -1,4 +1,4 @@
-An MDMail represents an abstract email which is stored in a mail dir structure. It can be stored in multiple files which themselves are stored in multiple boxes (e.g. when boxes represent GMail tags).
+An MDMail represents an abstract email which is stored in a maildir structure. It can be stored in multiple files which themselves are stored in multiple boxes (e.g. when boxes represent GMail tags).
 
 The interface for managing the MDMails is separated into two categories:
 
