@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"archiveIn:flagSeparator:" : "pre 6/8/2017 17:09",
-		"startSynchronizationProcess" : "pre 6/8/2017 17:45",
+		"startSynchronizationProcess" : "pre 7/21/2017 10:34",
+		"synchronizationProcessPeriod" : "pre 7/21/2017 10:34",
 		"synchronizeAllArchives" : "pre 7/19/2017 09:51" },
 	"instance" : {
 		"addBox:named:" : "pre 4/27/2017 17:17",
@@ -40,7 +41,6 @@
 		"messageEntryForId:ifAbsent:" : "pre 5/3/2017 13:21",
 		"readBoxNames" : "pre 4/27/2017 17:21",
 		"readRootBoxNames" : "pre 7/19/2017 09:43",
-		"removeFromIndices:" : "pre 7/21/2017 10:19",
 		"sentBox" : "pre 5/18/2017 09:44",
 		"sentBoxName" : "pre 5/18/2017 09:42",
 		"sentBoxName:" : "pre 5/18/2017 09:42",
