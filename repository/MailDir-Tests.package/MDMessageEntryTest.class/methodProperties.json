@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"moveToMovesTheFile" : "pre 5/9/2017 15:31",
+		"testAfterLastRemoveTheMailIsRemoved" : "pre 7/21/2017 09:29",
 		"testArchiveDoubleMessage" : "pre 6/5/2017 21:12",
 		"testArchiveSimpleMessage" : "pre 6/5/2017 21:12",
 		"testDoubleMessageFlags" : "pre 6/5/2017 19:57",
