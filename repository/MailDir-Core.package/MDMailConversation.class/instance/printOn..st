@@ -1,6 +1,6 @@
 printing
 printOn: aStream
-
-	aStream nextPutAll: self startMail sender.
+	
+	self printSenderOn: aStream.
 	aStream tab.
-	aStream nextPutAll: self startMail subject
+	self printSubjectOn: aStream.

@@ -2,4 +2,6 @@ ui
 mailListIcon
 
 	^ ToolIcons iconNamed: 
-		(self isUnread ifTrue: [#testOrange] ifFalse: [#blank])
+		(self isDeletedFromSystem
+			ifTrue: [#testRed] 
+			ifFalse: [self isUnread ifTrue: [#testOrange] ifFalse: [#blank]])
