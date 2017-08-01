@@ -1,0 +1,14 @@
+{
+	"category" : "MailDir-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MDTestMailArchive",
+	"pools" : [
+		 ],
+	"super" : "MDMailArchive",
+	"type" : "normal" }

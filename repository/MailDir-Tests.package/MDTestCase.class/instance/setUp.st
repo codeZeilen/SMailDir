@@ -54,7 +54,7 @@ setUp
 	sentBoxDirectory createDirectory: 'new'.
 	sentBoxDirectory createDirectory: 'cur'.
 	
-	archive := MDMailArchive archiveIn: archiveDirectory flagSeparator: $;.
+	archive := MDTestMailArchive archiveIn: archiveDirectory flagSeparator: $;.
 	archive trashBoxName: trashBoxName.
 	archive archiveBoxName: archiveBoxName.
 	archive sentBoxName: sentBoxName.
