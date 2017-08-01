@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	
-	self entries: WeakIdentityKeyDictionary new.
+	self entries: IdentityDictionary new.
 	fileAccessMutex := Mutex new.

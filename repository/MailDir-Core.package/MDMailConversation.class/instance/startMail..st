@@ -1,4 +1,5 @@
 accessing
-startMail: anObject
+startMail: aMail
 
-	startMail := anObject
+	mails add: aMail
+
