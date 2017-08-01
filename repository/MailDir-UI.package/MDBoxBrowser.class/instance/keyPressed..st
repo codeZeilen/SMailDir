@@ -4,7 +4,9 @@ keyPressed: character
 	character = Character delete ifTrue: [^ self selectNextElementAfter: [self selectedElement moveToTrash]].
 	
 	character = Character space ifTrue: [
-		self selectedElement isEmail ifTrue: [^ self selectedElement openRackStandardMorph]].
+		self selectedElement isEmail ifTrue: [
+			[self selectedElement openRackStandardMorph] fork.
+			^ true]].
 	
 	character = $a ifTrue: [
 		self selectedElement isEmail 

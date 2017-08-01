@@ -1,4 +1,4 @@
 updating
 updateDelayInMS
 
-	^ 200
+	^ 100
