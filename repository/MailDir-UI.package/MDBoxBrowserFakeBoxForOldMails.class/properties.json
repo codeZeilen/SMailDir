@@ -1,0 +1,14 @@
+{
+	"category" : "MailDir-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mails" ],
+	"name" : "MDBoxBrowserFakeBoxForOldMails",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
