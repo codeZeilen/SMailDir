@@ -2,6 +2,8 @@ instance creation
 conversationsIn: aCollectionOfMails
 
 	| newConversations archive |
+	aCollectionOfMails ifEmpty: [^ #()].
+	
 	newConversations := Dictionary new.
 	
 	archive := aCollectionOfMails first mailArchive.

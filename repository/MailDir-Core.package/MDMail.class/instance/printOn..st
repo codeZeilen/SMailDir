@@ -1,6 +1,6 @@
 printing
 printOn: aStream
 	
-	self printSenderOn: aStream.
+	self printSenderNameOn: aStream.
 	aStream tab.
 	self printSubjectOn: aStream.

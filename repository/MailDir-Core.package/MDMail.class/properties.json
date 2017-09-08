@@ -9,6 +9,7 @@
 		"header",
 		"subject",
 		"sender",
+		"senderName",
 		"recipients",
 		"date",
 		"messageId",
