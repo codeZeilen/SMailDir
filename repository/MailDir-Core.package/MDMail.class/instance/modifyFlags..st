@@ -4,7 +4,7 @@ modifyFlags: aBlock
 	| messageParts fileName flags flagsString flagParts |
 	self entries: (self entries collect: [:aFile | 
 		messageParts := aFile name findTokens: self flagSeparator. 
-		flagParts := messageParts last splitBy: '2,'.
+		flagParts := (messageParts last splitBy: '2,') asOrderedCollection.
 		flagParts size = 1 ifTrue: [flagParts add: ''].
 		flags := flagParts last.
 	
