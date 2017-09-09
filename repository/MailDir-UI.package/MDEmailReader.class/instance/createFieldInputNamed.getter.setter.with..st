@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createFieldInputNamed: fieldLabelGetter getter: fieldGetter setter: fieldSetter with: aBuilder
 
 	| field |

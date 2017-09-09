@@ -5,7 +5,7 @@ buildWith: aBuilder
 
 	windowSpec := aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'mail browser';
+		label: #windowLabel;
 		children: OrderedCollection new.
 		
 	folderListSpec := aBuilder pluggableTreeSpec new.

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createDetailsFieldsIn: detailsPanelSpec by: aBuilder
 
 	super createDetailsFieldsIn: detailsPanelSpec by: aBuilder.
