@@ -4,7 +4,7 @@
 		"rebuildAllInstances" : "pre 8/31/2017 16:28",
 		"startSynchronizationProcess" : "pre 7/21/2017 10:34",
 		"synchronizationProcessPeriod" : "pre 7/21/2017 10:34",
-		"synchronizeAllArchives" : "pre 7/19/2017 09:51" },
+		"synchronizeAllArchives" : "pre 9/18/2017 15:42" },
 	"instance" : {
 		"addBox:named:" : "pre 4/27/2017 17:17",
 		"addBoxesWithNames:" : "pre 7/19/2017 09:45",
@@ -48,7 +48,7 @@
 		"sentBoxName:" : "pre 5/18/2017 09:42",
 		"storeSentMail:" : "pre 7/13/2017 16:50",
 		"synchronize" : "pre 7/21/2017 09:20",
-		"synchronizeBoxes" : "pre 7/19/2017 09:45",
+		"synchronizeBoxes" : "pre 10/23/2017 11:50",
 		"synchronizeMessageEntries" : "pre 6/8/2017 18:24",
 		"trashBox" : "pre 5/9/2017 17:16",
 		"trashBoxName" : "pre 5/9/2017 17:05",

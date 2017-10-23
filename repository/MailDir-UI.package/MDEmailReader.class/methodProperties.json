@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildButtonBarSpecWith:" : "pre 5/8/2017 13:16",
+		"buildButtonBarSpecWith:" : "pre 9/14/2017 14:57",
 		"createDetailsFieldsIn:by:" : "pre 5/16/2017 20:09",
 		"createFieldInputNamed:getter:setter:with:" : "pre 7/4/2017 17:54",
 		"dateLabel" : "pre 5/16/2017 20:07",
@@ -10,6 +10,9 @@
 		"getDateAndTime" : "pre 5/16/2017 20:10",
 		"getRecipient" : "pre 8/5/2017 20:20",
 		"getText" : "pre 5/9/2017 17:37",
+		"prepareReplyTextFor:" : "pre 9/14/2017 14:59",
+		"replyAllMailButtonLabel" : "pre 9/14/2017 14:58",
+		"replyAllToMail" : "pre 9/14/2017 15:03",
 		"replyMailButtonLabel" : "pre 5/8/2017 13:16",
-		"replyToMail" : "pre 7/24/2017 15:51",
+		"replyToMail" : "pre 9/14/2017 16:03",
 		"setDate:" : "pre 5/16/2017 20:07" } }

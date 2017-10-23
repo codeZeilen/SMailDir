@@ -1,7 +1,8 @@
 keyboard handling
 keyPressed: character
 
-	character = Character delete ifTrue: [^ self selectNextElementAfter: [self selectedElement moveToTrash]].
+	character = Character delete ifTrue: [
+		^ self selectNextElementAfter: [self selectedElement moveToTrash]].
 	
 	character = Character space ifTrue: [
 		self selectedElement isEmail ifTrue: [

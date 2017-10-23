@@ -14,5 +14,9 @@ synchronizeSubBoxes
 	removedBoxNames := existingBoxes difference: namesOfDirectSubBoxes.
 
 	self subBoxes addAll: (addedBoxNames collect: 
-		[:boxName | MDMailBox newFor: self fileDirectory containingDirectory / boxName in: self mailArchive]).
-	self flag: #TODO. "In a second round we should also look into the directory to see if there are any other folders besides the maildir ones. And also remove the removed boxes... --pre"
+		[:boxName | MDMailBox 
+						newFor: self fileDirectory containingDirectory / boxName 
+						in: self mailArchive]).
+	self flag: #TODO. "In a second round we should also look into the directory to see if there are any other folders besides the maildir ones. And also remove the removed boxes... --pre".
+	
+	self changed.
