@@ -13,7 +13,7 @@ modifyFlags: aBlock
 		flagsString := self flagSeparator asString 
 			, (flagParts allButLast joinSeparatedBy: '') 
 			, '2,' 
-			, flags sorted asByteArray asString. 
+			, (String newFrom: flags sorted). 
 	
 		fileName := (messageParts allButLast , flagsString) joinSeparatedBy: ''.
 	
