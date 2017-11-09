@@ -10,7 +10,8 @@
 		"selectedElement",
 		"selectedParent",
 		"selectedPath",
-		"hasSeenChange" ],
+		"hasSeenChange",
+		"previouslyBoxMovedTo" ],
 	"name" : "MDBoxBrowser",
 	"pools" : [
 		 ],

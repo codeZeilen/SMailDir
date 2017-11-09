@@ -2,8 +2,8 @@
 	"class" : {
 		"install" : "pre 7/24/2017 14:18" },
 	"instance" : {
-		"createDetailsFieldsIn:by:" : "pre 5/18/2017 14:17",
-		"doSendMail" : "pre 7/21/2017 11:31",
+		"createDetailsFieldsIn:by:" : "pre 11/5/2017 17:22",
+		"doSendMail" : "pre 11/3/2017 11:52",
 		"profiles" : "pre 5/18/2017 14:18",
 		"profilesLabel" : "pre 5/18/2017 14:11",
 		"selectedProfile" : "pre 7/21/2017 11:35",

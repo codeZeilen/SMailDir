@@ -34,9 +34,4 @@ createDetailsFieldsIn: detailsPanelSpec by: aBuilder
 	
 	"Add selection of a mail profile here"
 	detailsPanelSpec children addFirst: profileField.
-
-
-	
-	
-	
 	
