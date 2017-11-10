@@ -10,5 +10,5 @@
 	"name" : "MDMailComposition",
 	"pools" : [
 		 ],
-	"super" : "MailCompositionNew",
+	"super" : "MailComposition",
 	"type" : "normal" }

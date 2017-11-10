@@ -1,4 +1,4 @@
 toolbuilder
-getDateAndTime
+messageDateAndTime
 
 	^ mailMessage date printString

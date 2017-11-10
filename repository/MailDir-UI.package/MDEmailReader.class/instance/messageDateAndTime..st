@@ -1,5 +1,4 @@
 accessing
-setDate: aString
+messageDateAndTime: aString
 
-	self halt.
 	^ mailMessage date

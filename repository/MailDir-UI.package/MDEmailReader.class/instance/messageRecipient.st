@@ -1,5 +1,5 @@
 access to mail object
-getRecipient
+messageRecipient
 
 	| recipients recipientsText |
 	recipients := mailMessage to.

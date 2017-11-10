@@ -10,5 +10,5 @@
 	"name" : "MDEmailReader",
 	"pools" : [
 		 ],
-	"super" : "MailCompositionNew",
+	"super" : "MailComposition",
 	"type" : "normal" }

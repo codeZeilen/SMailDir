@@ -1,4 +1,4 @@
 access to mail object
-getText
+messageText
 
 	^ mailMessage bodyTextFormatted
