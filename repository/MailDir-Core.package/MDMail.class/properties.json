@@ -15,7 +15,8 @@
 		"messageId",
 		"cc",
 		"fileAccessMutex",
-		"entries" ],
+		"entries",
+		"mailArchive" ],
 	"name" : "MDMail",
 	"pools" : [
 		 ],
