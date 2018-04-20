@@ -3,7 +3,12 @@ synchronizeOwnMessageEntries
 
 	| currentFiles entriesToBeRemoved filesToBeAdded mailFiles rejectedEntries |
 	currentFiles := self allMessageFileEntries asSet.
-	mailFiles := (self mails collect: [:m | m fileIn: self]) asSet.
+	mailFiles := (self mails 
+					collect: [:m | 
+						m 
+							fileIn: self 
+							ifAbsent: [(m files size > 1)
+								ifTrue: [self mails remove: m. nil] ]]) asSet reject: #isNil.
 	entriesToBeRemoved := mailFiles difference: currentFiles.
 	filesToBeAdded := currentFiles difference: mailFiles.
 	

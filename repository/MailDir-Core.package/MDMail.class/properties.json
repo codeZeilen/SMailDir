@@ -9,6 +9,7 @@
 		"header",
 		"subject",
 		"sender",
+		"senderAddress",
 		"senderName",
 		"recipients",
 		"date",

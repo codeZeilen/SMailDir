@@ -1,6 +1,6 @@
 mails
 moveTo: aBox
-	"Move moves the mail message completely to the new folder"
+	"Moves the mail message completely to the new folder"
 
 	fileAccessMutex critical: [ | newFile |	
 		((self boxes includes: aBox) and: [aBox mails includes: self]) 
