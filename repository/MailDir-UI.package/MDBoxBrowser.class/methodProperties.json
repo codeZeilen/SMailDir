@@ -9,7 +9,7 @@
 		"buildWith:" : "pre 9/9/2017 11:50",
 		"createFakeBoxFor:" : "pre 5/12/2017 17:15",
 		"determineNextEmailToSelect" : "pre 5/18/2017 08:58",
-		"doDelayedUpdate" : "pre 5/9/2017 16:58",
+		"doDelayedUpdate" : "pre 4/3/2018 15:09",
 		"doubleClickOn:" : "pre 5/4/2017 18:16",
 		"drag:" : "pre 5/12/2017 14:42",
 		"drop:ontoBox:shouldCopy:" : "pre 10/23/2017 13:59",
@@ -38,5 +38,5 @@
 		"update:" : "pre 5/10/2017 09:37",
 		"updateDelayInMS" : "pre 7/24/2017 16:04",
 		"wantsDroppedObject:" : "pre 5/19/2017 08:35",
-		"windowColorToUse" : "pre 5/4/2017 18:16",
+		"windowColorToUse" : "pre 1/9/2018 09:56",
 		"windowLabel" : "pre 9/9/2017 11:52" } }

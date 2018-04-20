@@ -1,0 +1,4 @@
+toolbuilder
+windowColorToUse
+
+	^ Color white

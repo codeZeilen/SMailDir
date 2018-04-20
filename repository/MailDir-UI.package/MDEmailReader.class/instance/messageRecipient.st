@@ -3,7 +3,7 @@ messageRecipient
 
 	| recipients recipientsText |
 	recipients := mailMessage to.
-	recipientsText := mailMessage to asText.
+	recipientsText := recipients asText.
 	(MailAddressParser addressesIn: recipients) do: [:address | | start end block |
 		start := recipients findString: address.
 		end := (start + address size) - 1.

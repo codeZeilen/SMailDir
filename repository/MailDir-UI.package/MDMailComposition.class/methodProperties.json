@@ -3,9 +3,10 @@
 		"install" : "pre 7/24/2017 14:18" },
 	"instance" : {
 		"createDetailsFieldsIn:by:" : "pre 11/5/2017 17:22",
-		"doSendMail" : "pre 11/10/2017 15:31",
+		"doSendMail" : "pre 11/21/2017 18:52",
 		"profiles" : "pre 5/18/2017 14:18",
 		"profilesLabel" : "pre 5/18/2017 14:11",
 		"selectedProfile" : "pre 7/21/2017 11:35",
 		"selectedProfileIndex" : "pre 5/18/2017 14:22",
-		"selectedProfileIndex:" : "pre 11/10/2017 15:20" } }
+		"selectedProfileIndex:" : "pre 11/10/2017 15:20",
+		"windowColorToUse" : "pre 11/10/2017 09:41" } }

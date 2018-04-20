@@ -2,5 +2,5 @@ updating
 doDelayedUpdate
 
 	Project current addDeferredUIMessage: [
-		self changed: #boxes. hasSeenChange := false.].
+		[self changed: #boxes] ensure: [hasSeenChange := false]].
 	
