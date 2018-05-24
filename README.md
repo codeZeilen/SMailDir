@@ -22,5 +22,5 @@ To synchronize your maildir structure you can call `MDMailArchive class>>#synchr
 The synchronization preserves the object structure of MDMessageEntries. So if an email file was moved, the corresponding MDMessageEntry object is also moved to another MDMailBox object.
 
 ## Open issues
-* Currently the synchronization only synchronizes messages but not new or deleted folders
-* Deleting messages in a GMail maildir might not delete them properly as GMail interprets deletion differently  
+* Deleting messages in a GMail maildir might not delete them properly as GMail interprets deletion differently
+* Be aware of synchronization issues. The process is not 100% robust yet. Although it happens very seldomly, single mail can get lost. We are working on it (see issue #3 and #4)
