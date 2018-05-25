@@ -1,0 +1,18 @@
+{
+	"category" : "MailDir-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mailArchive",
+		"previousMail",
+		"folders",
+		"mailQueue",
+		"skippedMails" ],
+	"name" : "MDEmailSorter",
+	"pools" : [
+		 ],
+	"super" : "MDEmailReader",
+	"type" : "normal" }
