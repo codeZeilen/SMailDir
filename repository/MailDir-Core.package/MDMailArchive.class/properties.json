@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Default" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"fileDirectory",
@@ -15,7 +15,8 @@
 		"trashBoxName",
 		"archiveBoxName",
 		"sentBoxName",
-		"draftsBoxName" ],
+		"draftsBoxName",
+		"indexSemaphore" ],
 	"name" : "MDMailArchive",
 	"pools" : [
 		 ],

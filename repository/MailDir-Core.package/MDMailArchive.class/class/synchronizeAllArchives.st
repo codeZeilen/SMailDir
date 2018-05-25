@@ -1,4 +1,4 @@
-as yet unclassified
+synchronization
 synchronizeAllArchives
 
 	self allInstances do: [:a | | inboxSize inbox |

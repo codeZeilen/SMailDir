@@ -1,5 +1,6 @@
 indexing
 indexEntry: anEntry
 
-	self indexIntoMessageIdIndex: anEntry.
-	self indexIntoConversationIndex: anEntry.
+	self protectIndexAccessDuring: [
+		self indexIntoMessageIdIndex: anEntry.
+		self indexIntoConversationIndex: anEntry]

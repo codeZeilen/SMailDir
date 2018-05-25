@@ -1,4 +1,4 @@
-as yet unclassified
+synchronization
 startSynchronizationProcess
 
 	[[self synchronizeAllArchives. 

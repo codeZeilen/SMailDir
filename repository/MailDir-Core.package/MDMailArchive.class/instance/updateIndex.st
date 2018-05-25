@@ -8,6 +8,6 @@ updateIndex
 		(self conversationForId: m messageId ifAbsent: [self error: 'conversation index out of sync'])
 			removeMail: m].
 	
-	removedMails do: [:m |
+	self protectIndexAccessDuring: [removedMails do: [:m |
 		self conversationIndex removeKey: m messageId.
-		self mailIdIndex removeKey: m messageId].
+		self mailIdIndex removeKey: m messageId]]

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 archiveIn: aFileDirectory flagSeparator: aString
 
 	^ self new

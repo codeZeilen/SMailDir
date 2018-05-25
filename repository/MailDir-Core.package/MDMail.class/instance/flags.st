@@ -2,7 +2,7 @@ flags
 flags
 
 	"The following code is a performance optimization as this method gets called a LOT
-	as it influences the mail icons."
+	as it influences the mail icons. --pre"
 	| fileName fileNameSize flagSeparatorIndex normalFlagIndex |
 	fileName := self file name.
 	fileNameSize := fileName size.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 conversations
 
 	^ MDMailConversation conversationsIn: self allMails

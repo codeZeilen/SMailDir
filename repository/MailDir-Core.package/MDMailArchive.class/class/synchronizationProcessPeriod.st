@@ -1,4 +1,4 @@
-as yet unclassified
+synchronization
 synchronizationProcessPeriod
 
 	^ 3 minutes

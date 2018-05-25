@@ -3,5 +3,7 @@ initialize
 
 	self 
 		boxes: Dictionary new;
-		mailIdIndex: WeakValueDictionary new;
+		mailIdIndex: Dictionary new;
 	 	conversationIndex: WeakKeyDictionary new.
+		
+	indexSemaphore := Mutex new.

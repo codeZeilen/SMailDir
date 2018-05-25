@@ -1,8 +1,8 @@
-as yet unclassified
+mails
 latestMail
 
-	| c a |
-	a := self mails.
-	c := a first.
-	self mails do: [:m | m date > c date ifTrue: [c := m]].
-	^ c
+	| a allMails latestMail |
+	allMails := self mails.
+	latestMail := a first.
+	allMails do: [:m | m date > latestMail date ifTrue: [latestMail := m]].
+	^ latestMail

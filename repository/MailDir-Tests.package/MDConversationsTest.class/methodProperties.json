@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"testArchiveConversations" : "pre 6/5/2017 21:12",
+		"testConversationProperties" : "pre 5/25/2018 17:23",
+		"testConversationReadStatus" : "pre 5/25/2018 17:25",
 		"testGetConversations" : "pre 6/9/2017 17:01",
 		"testMoveConversations" : "pre 6/9/2017 17:05",
 		"testRemoveAnEntry" : "pre 7/21/2017 10:39",

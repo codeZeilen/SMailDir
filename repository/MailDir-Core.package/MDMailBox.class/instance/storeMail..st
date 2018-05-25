@@ -1,6 +1,6 @@
 mails
 storeMail: aMailMessage
 
-	self mailArchive
+	^ self mailArchive
 		storeMail: aMailMessage
 		in: self. 
