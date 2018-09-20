@@ -7,6 +7,7 @@ baseline: spec
 			spec
 				package: 'MailDir-Core';
 				package: 'MailDir-Tests' with: [spec requires: #('MailDir-Core')];
+				package: 'MailDir-UI' with: [spec requires: #('MailDir-Core')];
 				yourself.
 			spec
 				group: 'default' with: #('MailDir-Core' 'MailDir-UI');
