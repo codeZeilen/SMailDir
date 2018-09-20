@@ -3,4 +3,4 @@ interactiveSynchronize
 
 	<rackOperationLabel: 'synchronize' inContextMenus: true>
 
-	self mailArchive synchronize
+	[self mailArchive synchronize] forkAt: Processor userBackgroundPriority
