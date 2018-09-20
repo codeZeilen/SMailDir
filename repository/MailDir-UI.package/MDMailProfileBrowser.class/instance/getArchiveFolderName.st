@@ -1,4 +1,4 @@
 profile form
 getArchiveFolderName
 	
-	^ self currentProfile archive archiveBoxName ifNil: ['']
+	^ ((self currentProfile ifNotNil: [:p | p archive]) ifNotNil: [:a | a archiveBoxName]) ifNil: ['']

@@ -1,4 +1,4 @@
 profile form
 getSmtpServer
 	
-	^ self currentProfile smtpServer
+	^ (self currentProfile ifNotNil: [:p | p smtpServer]) ifNil: ['']

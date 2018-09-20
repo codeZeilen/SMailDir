@@ -1,4 +1,4 @@
 profile form
 getProfileName
 	
-	^ self currentProfile profileName
+	^ (self currentProfile ifNotNil: [:p | p profileName]) ifNil: ['']

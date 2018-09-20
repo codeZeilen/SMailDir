@@ -4,5 +4,5 @@ profileSelected: anIndex
 	profileSelected := anIndex.
 	#(profileSelected getProfileName getUserEmailAddress getSmtpServer getSmtpServerPort 
 		getSmtpUsername getSmtpPassword mailArchivePathLabel getSentFolderName getTrashFolderName
-		getArchiveFolderName)
+		getArchiveFolderName getFlagSeparator)
 			do: [:selector | self changed: selector]

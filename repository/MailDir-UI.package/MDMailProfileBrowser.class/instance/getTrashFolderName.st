@@ -1,4 +1,4 @@
 profile form
 getTrashFolderName
 	
-	^ self currentProfile archive trashBoxName ifNil: ['']
+	^ ((self currentProfile ifNotNil: [:p | p archive]) ifNotNil: [:a | a trashBoxName]) ifNil: ['']

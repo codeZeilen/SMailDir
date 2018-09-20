@@ -1,4 +1,4 @@
 profile list
 currentProfile
 
-	^ self listOfProfiles at: self profileSelected
+	^ self listOfProfiles at: self profileSelected ifAbsent: [nil]

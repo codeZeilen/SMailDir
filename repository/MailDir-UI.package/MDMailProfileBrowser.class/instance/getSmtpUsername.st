@@ -1,4 +1,4 @@
 profile form
 getSmtpUsername
 	
-	^ self currentProfile smtpUsername
+	^ (self currentProfile ifNotNil: [:p | p smtpUsername]) ifNil: ['']

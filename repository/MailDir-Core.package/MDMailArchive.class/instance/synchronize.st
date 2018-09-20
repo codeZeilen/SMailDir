@@ -3,4 +3,6 @@ synchronize
 
 	self
 		synchronizeBoxes;
-		synchronizeMessageEntries
+		synchronizeMessageEntries.
+		
+	self conversationIndex ifEmpty: [self indexConversations].

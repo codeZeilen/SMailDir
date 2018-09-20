@@ -1,7 +1,7 @@
 toolbuilder
 buildProfileFormWith: aBuilder
 
-	| panel fields archivePathButton |
+	| panel fields archivePathButton archiveButtons archiveSynchronizeButton |
 	panel := aBuilder pluggablePanelSpec new
 		model: self;
 		children: OrderedCollection new;
@@ -20,14 +20,28 @@ buildProfileFormWith: aBuilder
 			editText: fieldSpec second;
 			help: fieldSpec third;
 			yourself].
-
+		
+	archiveButtons :=  aBuilder pluggablePanelSpec new
+		layout: #horizontal;
+		children: OrderedCollection new.
+	
 	archivePathButton := aBuilder pluggableButtonSpec new
 		model: self;
 		label: #mailArchivePathLabel;
 		action: #setMailArchivePath;
 		yourself.
 		
-	fields := fields , {archivePathButton}.
+	archiveSynchronizeButton := aBuilder pluggableButtonSpec new
+		model: self;
+		label: #mailArchiveSynchronizeLabel;
+		action: #synchronizeArchive;
+		yourself.	
+		
+	archiveButtons children 
+		add: archivePathButton;
+		add: archiveSynchronizeButton.
+		
+	fields := fields , {archiveButtons}.
 	
 	fields := fields , (#(
 				(getFlagSeparator setFlagSeparator: flagSeparatorLabel)
@@ -42,7 +56,5 @@ buildProfileFormWith: aBuilder
 			yourself]).
 
 	panel children addAll: fields.
-	
-	
 	
 	^ panel

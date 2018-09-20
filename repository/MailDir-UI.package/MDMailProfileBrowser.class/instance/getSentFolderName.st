@@ -1,4 +1,4 @@
 profile form
 getSentFolderName
 	
-	^ self currentProfile archive sentBoxName ifNil: ['']
+	^ ((self currentProfile ifNotNil: [:p | p archive]) ifNotNil: [:a | a sentBoxName]) ifNil: ['']

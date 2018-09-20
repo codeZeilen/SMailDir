@@ -1,4 +1,4 @@
-as yet unclassified
+meta information
 senderAddress
 
 	senderAddress ifNil: [self initializeSenderName].

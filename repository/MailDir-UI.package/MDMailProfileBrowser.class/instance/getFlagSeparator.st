@@ -1,4 +1,5 @@
 profile form
 getFlagSeparator
 	
-	^ self currentProfile archive flagSeparator ifNil: ['']
+	^ ((self currentProfile ifNotNil: [:p | p archive]) ifNotNil: [:a | a flagSeparator]) ifNil: ['']
+	

@@ -1,4 +1,4 @@
 profile form
 getSmtpPassword
 	
-	^ self currentProfile smtpPassword
+	^ (self currentProfile ifNotNil: [:p | p smtpPassword]) ifNil: [''] 

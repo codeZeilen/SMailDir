@@ -1,4 +1,4 @@
 profile form
 getSmtpServerPort
 	
-	^ (self currentProfile smtpServerPort ifNil: '')asString
+	^ ((self currentProfile ifNotNil: [:p | p smtpServerPort]) ifNil: '') asString
