@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createFolderButtonsWith: aBuilder
 
 	| leftColumn createButton rightColumn |

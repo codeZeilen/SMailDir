@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createSpecsWith: aBuilder
 
 	| children windowSpecs buttonPanel |

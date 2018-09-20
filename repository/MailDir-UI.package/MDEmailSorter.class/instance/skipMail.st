@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 skipMail
 
 	self skippedMails add: self currentMail messageId.

@@ -1,4 +1,4 @@
 profile form
 getUserEmailAddress
 	
-	^ self currentProfile userEmailAddress
+	^ self currentProfile userEmailAddress ifNil: ['']

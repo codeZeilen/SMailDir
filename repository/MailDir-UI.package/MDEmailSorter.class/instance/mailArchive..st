@@ -2,4 +2,6 @@ accessing
 mailArchive: anObject
 
 	mailArchive := anObject.
-	self refreshCurrentMail.
+	self 
+		initializeDefaultFolders;
+		refreshCurrentMail.

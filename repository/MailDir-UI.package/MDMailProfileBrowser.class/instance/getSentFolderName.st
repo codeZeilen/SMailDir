@@ -1,4 +1,4 @@
 profile form
 getSentFolderName
 	
-	^ self currentProfile archive sentBoxName
+	^ self currentProfile archive sentBoxName ifNil: ['']

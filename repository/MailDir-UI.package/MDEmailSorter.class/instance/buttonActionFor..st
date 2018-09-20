@@ -8,6 +8,7 @@ buttonActionFor: anInteger
 			selectedFolder := UIManager default
 				chooseFrom: (allBoxes collect: [:b | b fullBoxName]) 
 				values: allBoxes.
+			selectedFolder ifNil: [^ false].
 			self folders at: anInteger put: selectedFolder.
 			self moveMailTo: selectedFolder.
 			self changed: ('buttonFolderLabel' , anInteger asString) asSymbol ]

@@ -3,7 +3,7 @@
 		"open" : "pre 1/25/2018 21:45",
 		"openOn:" : "pre 1/25/2018 22:12" },
 	"instance" : {
-		"buttonActionFor:" : "pre 2/2/2018 15:25",
+		"buttonActionFor:" : "pre 6/4/2018 15:42",
 		"buttonLabelFor:" : "pre 2/2/2018 15:40",
 		"createFolderButtonsWith:" : "pre 2/2/2018 18:27",
 		"createSpecsWith:" : "pre 2/2/2018 18:11",
@@ -12,9 +12,10 @@
 		"folders" : "pre 1/25/2018 22:08",
 		"folders:" : "pre 1/25/2018 22:08",
 		"inbox" : "pre 1/26/2018 09:17",
-		"initialize" : "pre 2/2/2018 18:28",
+		"initialize" : "pre 7/31/2018 12:38",
+		"initializeDefaultFolders" : "pre 7/31/2018 12:39",
 		"mailArchive" : "pre 1/25/2018 22:08",
-		"mailArchive:" : "pre 2/2/2018 15:28",
+		"mailArchive:" : "pre 7/31/2018 12:38",
 		"mailQueue" : "pre 2/2/2018 18:12",
 		"mailQueue:" : "pre 2/2/2018 18:12",
 		"moveMailTo:" : "pre 2/2/2018 15:20",
@@ -26,5 +27,4 @@
 		"skipMail" : "pre 2/2/2018 18:18",
 		"skippedMails" : "pre 2/2/2018 18:12",
 		"skippedMails:" : "pre 2/2/2018 18:12",
-		"undo" : "pre 3/5/2018 16:34",
-		"windowColorToUse" : "pre 1/25/2018 22:02" } }
+		"undo" : "pre 3/5/2018 16:34" } }

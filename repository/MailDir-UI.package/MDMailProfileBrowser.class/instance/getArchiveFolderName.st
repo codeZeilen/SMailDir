@@ -1,4 +1,4 @@
 profile form
 getArchiveFolderName
 	
-	^ self currentProfile archive archiveBoxName
+	^ self currentProfile archive archiveBoxName ifNil: ['']

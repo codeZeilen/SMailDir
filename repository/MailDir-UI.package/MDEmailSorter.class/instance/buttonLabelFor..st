@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buttonLabelFor: anIndex
 
 	^ (self folders at: anIndex)

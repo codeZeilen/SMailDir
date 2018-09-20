@@ -30,6 +30,7 @@ buildProfileFormWith: aBuilder
 	fields := fields , {archivePathButton}.
 	
 	fields := fields , (#(
+				(getFlagSeparator setFlagSeparator: flagSeparatorLabel)
 				(getTrashFolderName setTrashFolderName: trashFolderNameLabel)
 			     	(getSentFolderName setSentFolderName: sentFolderNameLabel)
 				(getArchiveFolderName setArchiveFolderName: archiveFolderNameLabel)) collect: [:fieldSpec |
