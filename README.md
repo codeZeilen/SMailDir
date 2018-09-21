@@ -10,7 +10,7 @@ It is an evolved version of [CCMail](https://github.com/calmez/CCMail) originall
 
 ```Smalltalk
 Metacello new
-  baseline: 'SMailDir';
+  baseline: 'MailDir';
   repository: 'github://codezeilen/SMailDir/repository';
   load: 'default'.
 ```
