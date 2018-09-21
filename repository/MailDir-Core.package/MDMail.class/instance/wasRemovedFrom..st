@@ -1,4 +1,4 @@
-mails
+private
 wasRemovedFrom: aBox
 
 	fileAccessMutex critical: [

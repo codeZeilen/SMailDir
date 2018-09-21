@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 openOnBox: anEMailBox
 
 	^ ToolBuilder default open: (self new

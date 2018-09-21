@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newFor: aFileDirectory in: aMailArchive
 
 	^ self new

@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 openOn: aMailArchive
 	
 	ToolBuilder default open: (self new

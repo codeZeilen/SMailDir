@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 Profiles
 
 	^ Profiles ifNil: [Profiles := Set new]
