@@ -14,6 +14,8 @@ synchronizeOwnMessageEntries
 		self mails: (self mails copyWithoutAll: rejectedEntries).
 	
 		filesToBeAdded do: [:file | | entry |
+			Processor yield.
+			
 			entry := MDMail newAt: file in: self.
 			(self mailArchive hasMessageEntryForId: entry messageId)
 				ifTrue: [entry := self mailArchive messageEntryForId: entry messageId ifAbsent: [].
@@ -23,4 +25,4 @@ synchronizeOwnMessageEntries
 						self mailArchive indexEntry: entry]]].
 			
 	self changed.
-	Processor yield.
+	

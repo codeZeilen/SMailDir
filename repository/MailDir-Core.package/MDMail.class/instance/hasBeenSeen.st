@@ -1,4 +1,5 @@
 meta information
 hasBeenSeen
 	
-	^ self flags includes: $S
+	hasBeenSeen ifNil: [hasBeenSeen := self flags includes: $S].
+	^ hasBeenSeen

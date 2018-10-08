@@ -1,6 +1,7 @@
 meta information
 setRead
 	
+	hasBeenSeen := true.
 	self addOrdinaryFlag: $S.
 	
 	(self entries associations select: [:assoc | 

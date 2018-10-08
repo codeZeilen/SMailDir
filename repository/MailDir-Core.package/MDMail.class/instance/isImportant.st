@@ -1,4 +1,6 @@
 meta information
 isImportant
 	
-	^ self flags includes: $F
+	isImportant ifNil: [isImportant := self flags includes: $F].
+	^ isImportant
+	

@@ -1,7 +1,5 @@
 fixtures
 addNewMail
 
-	| tmpFile |
-	tmpFile := (boxDirectory / 'cur') fileNamed: self addedMailFileName.
-	tmpFile nextPutAll: self addedMailFileContent. 
-	tmpFile flush; close.
+	(boxDirectory / 'cur') newFileNamed: self addedMailFileName do: [:file |
+		file nextPutAll: self addedMailFileContent].

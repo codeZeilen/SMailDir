@@ -1,6 +1,7 @@
 meta information
 setUnread
 	
+	hasBeenSeen := false.
 	self removeOrdinaryFlag: $S.
 	
 	(self entries associations select: [:assoc | 
