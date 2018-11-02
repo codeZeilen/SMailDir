@@ -9,7 +9,6 @@ testSynchronizationOfSubFoldersRemovesSubBoxes
 	
 	archive synchronizeBoxes.
 	
-	newBoxName := boxName , '.' , 'yetAnotherBox'.
 	(archiveDirectory / newBoxName) deleteDirectory: 'new'.
 	(archiveDirectory / newBoxName) deleteDirectory: 'cur'.
 	archiveDirectory deleteDirectory: newBoxName.

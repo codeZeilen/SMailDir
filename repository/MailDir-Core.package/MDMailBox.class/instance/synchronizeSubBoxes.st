@@ -17,7 +17,7 @@ synchronizeSubBoxes
 		[:boxName | MDMailBox 
 						newFor: self fileDirectory containingDirectory / boxName 
 						in: self mailArchive]).
-	self subBoxes removeAllSuchThat: [:b | (removedBoxNames includes: b boxName) not ].
+	self subBoxes removeAllFoundIn: (self subBoxes select: [:b | removedBoxNames includes: b fullBoxName]).
 	self flag: #TODO. "In a second round we should also look into the directory to see if there are any other folders besides the maildir ones. And also remove the removed boxes... --pre".
 	
 	self changed.
