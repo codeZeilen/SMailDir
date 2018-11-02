@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'repository\/MailDir-Core.package' : #SquotCypressCodeSerializer,
+	'repository\/MailDir-Tests.package' : #SquotCypressCodeSerializer,
+	'repository\/MailDir-UI.package' : #SquotCypressCodeSerializer
+}
