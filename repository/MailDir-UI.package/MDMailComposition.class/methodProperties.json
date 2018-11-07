@@ -2,11 +2,18 @@
 	"class" : {
 		"install" : "pre 7/24/2017 14:18" },
 	"instance" : {
+		"acceptDroppingMorph:event:inMorph:" : "pre 10/8/2018 09:12",
+		"addAttachment:named:" : "pre 9/27/2018 15:05",
+		"addEmailAddress:to:" : "pre 10/8/2018 09:12",
 		"createDetailsFieldsIn:by:" : "pre 11/5/2017 17:22",
+		"createFieldInputNamed:getter:setter:with:" : "pre 10/8/2018 08:56",
 		"doSendMail" : "pre 11/21/2017 18:52",
 		"profiles" : "pre 5/18/2017 14:18",
 		"profilesLabel" : "pre 5/18/2017 14:11",
 		"selectedProfile" : "pre 7/21/2017 11:35",
 		"selectedProfileIndex" : "pre 5/18/2017 14:22",
 		"selectedProfileIndex:" : "pre 11/10/2017 15:20",
+		"wantsDroppedMorph:event:inMorph:" : "pre 10/8/2018 09:00",
+		"wantsDroppedMorph:forAddressingIn:" : "pre 10/8/2018 09:07",
+		"wantsDroppedMorph:forAttachmentsIn:" : "pre 10/8/2018 08:59",
 		"windowColorToUse" : "pre 11/10/2017 09:41" } }
