@@ -4,7 +4,8 @@ sudo: false
 os:
  - linux
  - osx
+ - windows
 
 smalltalk:
- - Squeak-trunk
- - Squeak-5.2
+ - Squeak64-trunk
+ - Squeak64-5.2
