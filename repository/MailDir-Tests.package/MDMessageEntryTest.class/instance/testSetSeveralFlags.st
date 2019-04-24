@@ -1,4 +1,4 @@
-accessing
+tests
 testSetSeveralFlags
 
 	newMessageEntry setRead; setImportant.

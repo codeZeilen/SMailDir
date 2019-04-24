@@ -1,4 +1,4 @@
-accessing
+tests
 testMoveToMovesDoubleEntryToSIngleFIle
 	
 	doubleMessageEntry moveTo: box2.

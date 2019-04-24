@@ -1,4 +1,4 @@
-accessing
+tests
 testHasBeenRead
 
 	self assert: messageEntry hasBeenSeen.

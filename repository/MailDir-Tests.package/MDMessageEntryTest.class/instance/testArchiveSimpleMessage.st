@@ -1,4 +1,4 @@
-accessing
+tests
 testArchiveSimpleMessage
 
 	messageEntry moveToArchive.

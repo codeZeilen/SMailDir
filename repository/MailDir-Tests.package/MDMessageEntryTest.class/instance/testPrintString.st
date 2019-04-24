@@ -1,4 +1,4 @@
-accessing
+tests
 testPrintString
 	
 	self 

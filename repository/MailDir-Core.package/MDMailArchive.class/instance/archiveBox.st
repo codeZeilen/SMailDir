@@ -1,5 +1,5 @@
-accessing
+boxes
 archiveBox
 
-	self archiveBoxName isEmptyOrNil ifTrue: [^ nil].
+	self isArchiveBoxSet ifFalse: [^ nil].
 	^ self boxNamed: self archiveBoxName

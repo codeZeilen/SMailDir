@@ -1,5 +1,8 @@
 accessing
 fileDirectory: anObject
 
+	| oldDirectory |
+	oldDirectory := fileDirectory.
 	fileDirectory := anObject.
-	self migrateBoxPaths.
+	oldDirectory ~= fileDirectory ifTrue: [
+		self migrateBoxPaths]

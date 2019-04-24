@@ -1,4 +1,4 @@
-accessing
+tests
 testSetUnread
 
 	messageEntry setUnread.

@@ -1,4 +1,4 @@
-accessing
+tests
 testTrashSimpleMessage
 
 	messageEntry moveToTrash.

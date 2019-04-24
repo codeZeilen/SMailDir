@@ -1,4 +1,4 @@
-accessing
+tests
 testDoubleMessageFlags
 
 	self assert: (doubleMessageEntry flags includesAllOf: #($F $S)).

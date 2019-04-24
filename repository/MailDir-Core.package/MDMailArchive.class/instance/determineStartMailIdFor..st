@@ -2,8 +2,7 @@ indexing
 determineStartMailIdFor: anEntry
 
 	| predecessorId |
-	predecessorId := (anEntry header fieldNamed: 'in-reply-to' 
-		ifAbsent: [^ anEntry messageId]) mainValue.
+	predecessorId := anEntry inReplyToMessageId.
 		
 	predecessorId = anEntry messageId ifTrue: [^ predecessorId]. 
 		

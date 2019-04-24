@@ -1,4 +1,4 @@
-accessing
+tests
 testMoveToMovesTheFile
 	
 	messageEntry moveTo: box2.

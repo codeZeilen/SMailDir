@@ -1,4 +1,4 @@
-accessing
+tests
 testTrashDoubleMessage
 
 	doubleMessageEntry moveToTrash.

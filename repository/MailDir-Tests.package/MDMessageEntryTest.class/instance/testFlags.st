@@ -1,4 +1,4 @@
-accessing
+tests
 testFlags
 
 	self assert: (messageEntry flags includesAllOf: #($R $S)).

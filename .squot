@@ -1,6 +1,6 @@
 OrderedDictionary {
-	'repository\/BaselineOfMailDir.package' : #SquotCypressCodeSerializer,
-	'repository\/MailDir-Core.package' : #SquotCypressCodeSerializer,
 	'repository\/MailDir-Tests.package' : #SquotCypressCodeSerializer,
-	'repository\/MailDir-UI.package' : #SquotCypressCodeSerializer
+	'repository\/MailDir-UI.package' : #SquotCypressCodeSerializer,
+	'repository\/BaselineOfMailDir.package' : #SquotCypressCodeSerializer,
+	'repository\/MailDir-Core.package' : #SquotCypressCodeSerializer
 }
