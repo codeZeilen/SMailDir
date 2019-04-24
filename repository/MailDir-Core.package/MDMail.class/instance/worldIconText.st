@@ -1,4 +1,4 @@
 Rack
 worldIconText
 
-	^ self subject
+	^ self senderName , String crlf , self subject

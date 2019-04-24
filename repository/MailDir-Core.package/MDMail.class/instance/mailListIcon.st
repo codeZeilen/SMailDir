@@ -1,5 +1,6 @@
 ui
 mailListIcon
 
-	^ ToolIcons iconNamed: 
-		(self isUnread ifTrue: [#testOrange] ifFalse: [#blank])
+	self inReplyToMessageId.
+
+	^ ToolIcons iconNamed: (self isUnread ifTrue: [#testOrange] ifFalse: [#blank])
