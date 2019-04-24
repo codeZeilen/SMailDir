@@ -1,7 +1,5 @@
 menu
 generalMenu: aMenu
 
-	self selectedElement menuOperations do: [:operation |
-		self addMenuOperation: operation for: self selectedElement to: aMenu].
-
+	self selectedElement addMenuOperationsTo: aMenu.
 	^ aMenu

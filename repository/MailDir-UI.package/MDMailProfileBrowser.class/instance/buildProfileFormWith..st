@@ -17,6 +17,7 @@ buildProfileFormWith: aBuilder
 		aBuilder pluggableInputFieldSpec new
 			model: self;
 			getText: fieldSpec first;
+			setText: fieldSpec second;
 			editText: fieldSpec second;
 			help: fieldSpec third;
 			yourself].

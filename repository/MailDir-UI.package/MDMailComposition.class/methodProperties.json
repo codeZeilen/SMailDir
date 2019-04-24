@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"install" : "pre 7/24/2017 14:18" },
+		"install" : "pre 7/24/2017 14:18",
+		"openOn:" : "pre 4/24/2019 16:31" },
 	"instance" : {
 		"acceptDroppingMorph:event:inMorph:" : "pre 10/8/2018 09:12",
 		"addAttachment:named:" : "pre 9/27/2018 15:05",
@@ -15,5 +16,4 @@
 		"selectedProfileIndex:" : "pre 11/10/2017 15:20",
 		"wantsDroppedMorph:event:inMorph:" : "pre 10/8/2018 09:00",
 		"wantsDroppedMorph:forAddressingIn:" : "pre 10/8/2018 09:07",
-		"wantsDroppedMorph:forAttachmentsIn:" : "pre 10/8/2018 08:59",
-		"windowColorToUse" : "pre 11/10/2017 09:41" } }
+		"wantsDroppedMorph:forAttachmentsIn:" : "pre 10/8/2018 08:59" } }

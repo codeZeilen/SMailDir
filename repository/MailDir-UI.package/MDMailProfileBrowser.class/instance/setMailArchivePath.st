@@ -16,5 +16,7 @@ setMailArchivePath
 				self currentProfile archive archiveName: self currentProfile profileName]
 			ifNotNil: [
 				(UIManager default confirm: 'Are you sure you want to change the archive root folder?')
-					ifTrue: [self currentProfile archive fileDirectory: directory]]].
+					ifTrue: [self currentProfile archive fileDirectory: directory.
+							UIManager default inform: 'We will migrate and synchronize your archive which might take a while to process'.
+							self currentProfile archive synchronize; indexConversations.]]].
 	self changed: #mailArchivePathLabel

@@ -1,5 +1,7 @@
 profile form
 setFlagSeparator: aString
 	
-	self currentProfile archive flagSeparator: aString asString.
-	self changed: #getFlagSeparator
+	aString ifEmpty: [^ true].
+	self currentProfile archive flagSeparator: aString asString first.
+	self changed: #getFlagSeparator.
+	^ true
