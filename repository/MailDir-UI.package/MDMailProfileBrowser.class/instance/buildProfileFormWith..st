@@ -19,6 +19,7 @@ buildProfileFormWith: aBuilder
 			getText: fieldSpec first;
 			setText: fieldSpec second;
 			editText: fieldSpec second;
+			font: (fieldSpec first = #getSmtpPassword ifTrue: [StrikeFont passwordFontSize: 12] ifFalse: [nil]);
 			help: fieldSpec third;
 			yourself].
 		
