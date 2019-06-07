@@ -1,5 +1,7 @@
 actions
 addProfileButtonClicked
 	
-	self createTemporaryProfile.
-	self changed: #listOfProfiles
+	self 
+		createTemporaryProfile;
+		changed: #listOfProfiles;
+		selectTemporaryProfile

@@ -3,7 +3,7 @@
 		"initialize" : "pre 9/21/2018 07:10",
 		"open" : "pre 6/5/2018 15:19" },
 	"instance" : {
-		"addProfileButtonClicked" : "pre 6/5/2018 18:43",
+		"addProfileButtonClicked" : "pre 6/7/2019 17:19",
 		"addProfileButtonLabel" : "pre 6/5/2018 15:34",
 		"archiveFolderNameLabel" : "pre 6/5/2018 19:57",
 		"buildProfileFormWith:" : "pre 4/23/2019 13:55",
@@ -33,6 +33,7 @@
 		"profileSelected:" : "pre 9/20/2018 16:08",
 		"removeProfileButtonClicked" : "pre 9/20/2018 16:22",
 		"removeProfileButtonLabel" : "pre 9/20/2018 15:59",
+		"selectTemporaryProfile" : "pre 6/7/2019 17:19",
 		"sentFolderNameLabel" : "pre 6/5/2018 19:56",
 		"setArchiveFolderName:" : "pre 6/5/2018 19:54",
 		"setFlagSeparator:" : "pre 11/1/2018 19:20",
