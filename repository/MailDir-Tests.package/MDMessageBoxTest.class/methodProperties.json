@@ -17,4 +17,5 @@
 		"testSynchronizationRemovesDeletedFiles" : "pre 6/8/2017 17:56",
 		"testSynchronizationRemovesEntryFromConversations" : "pre 6/8/2017 18:20",
 		"testSynchronizationUpdatesConversations" : "pre 6/9/2017 16:46",
-		"testSynchronizationUpdatesIfThereAreMultipleFilesForAMail" : "pre 7/18/2017 16:10" } }
+		"testSynchronizationUpdatesIfThereAreMultipleFilesForAMail" : "pre 7/18/2017 16:10",
+		"testTestingMethods" : "pre 6/11/2019 06:07" } }

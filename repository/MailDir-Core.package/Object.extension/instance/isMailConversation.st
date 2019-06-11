@@ -1,0 +1,4 @@
+*MailDir-Core
+isMailConversation
+
+	^ false
