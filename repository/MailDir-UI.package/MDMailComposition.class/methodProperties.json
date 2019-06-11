@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"install" : "pre 7/24/2017 14:18",
-		"openOn:" : "pre 4/24/2019 16:31" },
+		"openOn:" : "pre 6/11/2019 06:49" },
 	"instance" : {
 		"acceptDroppingMorph:event:inMorph:" : "pre 10/8/2018 09:12",
 		"addAttachment:named:" : "pre 9/27/2018 15:05",
