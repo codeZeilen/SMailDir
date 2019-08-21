@@ -6,6 +6,7 @@
 		"testAfterLastRemoveTheMailIsRemoved" : "pre 7/21/2017 11:02",
 		"testAllBoxes" : "pre 6/9/2017 17:01",
 		"testConfiguredArchiveIsConfigured" : "pre 4/24/2019 16:27",
+		"testDetectAndRemoveDuplicates" : "pre 8/21/2019 15:43",
 		"testNewArchiveIsNotConfigured" : "pre 4/24/2019 16:26",
 		"testStoreSentMail" : "pre 7/13/2017 16:51",
 		"testSynchronizationOfFolders" : "pre 7/18/2017 16:48",
