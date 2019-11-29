@@ -4,7 +4,6 @@
 		"openOn:" : "pre 6/11/2019 06:49" },
 	"instance" : {
 		"acceptDroppingMorph:event:inMorph:" : "pre 10/8/2018 09:12",
-		"addAttachment:named:" : "pre 9/27/2018 15:05",
 		"addEmailAddress:to:" : "pre 10/8/2018 09:12",
 		"createDetailsFieldsIn:by:" : "pre 11/5/2017 17:22",
 		"createFieldInputNamed:getter:setter:with:" : "pre 10/8/2018 08:56",
