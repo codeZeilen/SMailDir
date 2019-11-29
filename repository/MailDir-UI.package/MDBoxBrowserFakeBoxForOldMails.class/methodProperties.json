@@ -2,4 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"mails:" : "pre 8/30/2017 17:30" } }
+		"=" : "pre 1/3/2018 17:13",
+		"allBoxes" : "pre 8/30/2017 17:29",
+		"hash" : "pre 8/30/2017 17:30",
+		"isCollection" : "pre 8/30/2017 17:29",
+		"isMailBox" : "pre 8/30/2017 17:29",
+		"mailListIcon" : "pre 8/30/2017 17:29",
+		"mails" : "pre 8/30/2017 17:30",
+		"mails:" : "pre 8/30/2017 17:30",
+		"notEmpty" : "pre 8/30/2017 17:30",
+		"printOn:" : "pre 8/30/2017 17:31",
+		"subBoxes" : "pre 8/30/2017 17:29" } }

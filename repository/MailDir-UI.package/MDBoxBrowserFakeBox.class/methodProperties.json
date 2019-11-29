@@ -2,5 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"=" : "pre 5/12/2017 17:19",
+		"allBoxes" : "pre 5/12/2017 17:08",
+		"hash" : "pre 5/12/2017 17:14",
+		"isCollection" : "pre 5/12/2017 17:13",
+		"isMailBox" : "pre 5/12/2017 17:08",
+		"mailListIcon" : "pre 5/12/2017 17:11",
+		"mails" : "pre 5/12/2017 17:15",
+		"notEmpty" : "pre 5/12/2017 17:16",
 		"originalBox" : "pre 5/12/2017 17:14",
-		"originalBox:" : "pre 5/12/2017 17:14" } }
+		"originalBox:" : "pre 5/12/2017 17:14",
+		"printOn:" : "pre 5/12/2017 17:12",
+		"subBoxes" : "pre 5/12/2017 17:08" } }

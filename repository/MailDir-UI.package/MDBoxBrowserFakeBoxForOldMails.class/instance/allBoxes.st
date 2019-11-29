@@ -1,0 +1,4 @@
+accessing
+allBoxes
+
+	^ {self}
