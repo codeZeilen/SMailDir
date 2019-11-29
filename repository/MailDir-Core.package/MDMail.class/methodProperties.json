@@ -2,7 +2,8 @@
 	"class" : {
 		"clearHeaders" : "pre 5/14/2017 19:34",
 		"newAt:in:" : "pre 5/27/2017 15:06",
-		"newFor:in:" : "pre 5/29/2017 08:49" },
+		"newFor:in:" : "pre 5/29/2017 08:49",
+		"stonAllInstVarNames" : "pre 6/6/2019 10:17" },
 	"instance" : {
 		"=" : "pre 5/17/2017 17:03",
 		"addBox:with:" : "pre 12/6/2017 18:28",

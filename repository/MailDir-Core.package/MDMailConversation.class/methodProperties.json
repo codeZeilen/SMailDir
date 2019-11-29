@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"conversationsIn:" : "pre 9/7/2017 11:07" },
+		"conversationsIn:" : "pre 9/7/2017 11:07",
+		"stonAllInstVarNames" : "pre 6/6/2019 16:38" },
 	"instance" : {
 		"=" : "pre 5/12/2017 14:52",
 		"addMail:" : "pre 9/6/2017 16:24",
