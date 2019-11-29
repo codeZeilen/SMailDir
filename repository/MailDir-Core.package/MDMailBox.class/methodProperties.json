@@ -2,7 +2,7 @@
 	"class" : {
 		"newFor:in:" : "pre 7/6/2017 14:40" },
 	"instance" : {
-		"addMail:" : "pre 7/13/2017 17:01",
+		"addMail:" : "pre 8/21/2019 15:41",
 		"allBoxes" : "pre 4/27/2017 17:45",
 		"allMails" : "pre 5/3/2017 09:16",
 		"allMessageFileEntries" : "pre 5/4/2017 17:22",
@@ -11,12 +11,14 @@
 		"conversations" : "mt 2/14/2018 08:51",
 		"createSubBoxNamed:" : "pre 10/23/2017 11:53",
 		"currentMessagesDirectory" : "pre 4/27/2017 17:32",
+		"delete" : "pre 10/20/2019 16:02",
 		"fileDirectory" : "pre 4/27/2017 17:08",
 		"fileDirectory:" : "pre 4/27/2017 17:08",
 		"fullBoxName" : "pre 4/27/2017 17:23",
 		"initialize" : "pre 7/6/2017 14:40",
 		"initializeMessageEntries" : "pre 5/28/2017 21:45",
 		"interactiveCreateSubBox" : "pre 10/23/2017 11:53",
+		"interactiveDelete" : "pre 10/20/2019 16:01",
 		"interactiveSetAllMailsRead" : "pre 5/18/2017 18:34",
 		"interactiveSynchronize" : "pre 6/11/2019 05:58",
 		"isCollection" : "pre 4/29/2017 00:48",
@@ -39,7 +41,7 @@
 		"subBoxes" : "pre 4/27/2017 17:01",
 		"subBoxes:" : "pre 4/27/2017 17:01",
 		"synchronizeMessageEntries" : "pre 10/8/2018 13:49",
-		"synchronizeOwnMessageEntries" : "pre 8/20/2019 17:09",
+		"synchronizeOwnMessageEntries" : "pre 8/21/2019 16:35",
 		"synchronizeSubBoxes" : "pre 11/2/2018 13:43",
 		"worldIconMorph" : "pre 2/21/2018 17:09",
 		"worldIconText" : "pre 11/23/2017 13:43" } }

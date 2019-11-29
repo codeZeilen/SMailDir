@@ -16,7 +16,8 @@ synchronizeOwnMessageEntries
 		filesToBeAdded do: [:file | | entry |
 			messageId := self messageIdFor: file.
 			(self mailArchive hasMessageEntryForId: messageId)
-				ifTrue: [entry := self mailArchive messageEntryForId: messageId ifAbsent: [].
+				ifTrue: [
+						entry := self mailArchive messageEntryForId: messageId ifAbsent: [].
 						entry wasMovedTo: self as: file.
 						self addMail: entry]
 				ifFalse: [entry := MDMail newAt: file in: self.

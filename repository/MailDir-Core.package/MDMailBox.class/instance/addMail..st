@@ -1,5 +1,5 @@
 mails
 addMail: anEntry
 
-	self mails add: anEntry.
+	self mails addIfNotPresent: anEntry.
 	self changed
