@@ -9,6 +9,6 @@ smalltalk:
  - Squeak64-trunk
  - Squeak64-5.2
  - Squeak64-5.3
- - Squeak-trunk
- - Squeak-5.2
- - Squeak-5.3
+ - Squeak32-trunk
+ - Squeak32-5.2
+ - Squeak32-5.3
